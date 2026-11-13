@@ -2,7 +2,9 @@
 
 BuildAI is an early-alpha Android app for creating personal tools from a conversation. It uses Kotlin/Compose, local GGUF inference through pinned llama.cpp, and optional explicitly enabled cloud providers. New Create projects produce versioned native app definitions with local records. Existing HTML projects retain their legacy runner and storage origins.
 
-The [requirements](docs/SYSTEM_REQUIREMENTS.md), [implementation handoff](docs/IMPLEMENTATION_HANDOFF.md) and [architecture](docs/ARCHITECTURE.md) describe the intended product, implemented foundation and remaining gates. **Autonomous local app creation has not passed its quality gate.** Installing a model or passing a short-reply check does not establish builder reliability on that phone.
+This is an old version of the app, the public repository is updated once monthly.
+
+The [requirements](docs/SYSTEM_REQUIREMENTS.md), [implementation handoff](docs/IMPLEMENTATION_HANDOFF.md) and [architecture](docs/ARCHITECTURE.md) describe the intended product, implemented foundation and remaining gates. **Autonomous local app creation has not passed its quality gate in this repo.** Installing a model or passing a short-reply check does not establish builder reliability on that phone.
 
 ## Current repair candidate
 
