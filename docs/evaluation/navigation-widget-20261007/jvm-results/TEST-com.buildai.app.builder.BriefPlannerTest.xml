@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.builder.BriefPlannerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:07" hostname="Tar-IdeaPad-3-15ITL6" time="0.078">
+  <properties/>
+  <testcase name="repairContextRetainsTheFailedReplyWithoutRewritingSavedUserEvidence" classname="com.buildai.app.builder.BriefPlannerTest" time="0.035"/>
+  <testcase name="distinctUnicodeQuestionsAreNotDiscardedAfterAnAnswer" classname="com.buildai.app.builder.BriefPlannerTest" time="0.005"/>
+  <testcase name="trailingObjectsAndBlankPlanFieldsAreRejectedBeforeApproval" classname="com.buildai.app.builder.BriefPlannerTest" time="0.001"/>
+  <testcase name="malformedAndUnsupportedOutputsNeverBecomeGenericApps" classname="com.buildai.app.builder.BriefPlannerTest" time="0.0"/>
+  <testcase name="answeredQuestionsRemainRememberedAndRepeatedQuestionDoesNotUnlockReady" classname="com.buildai.app.builder.BriefPlannerTest" time="0.002"/>
+  <testcase name="longRepeatedEvidenceIsLosslesslyFactoredWithoutDroppingUniqueDecisionsOrCurrentInput" classname="com.buildai.app.builder.BriefPlannerTest" time="0.027"/>
+  <testcase name="modelsCannotInventUserEvidenceOrSilentlyAcceptSuggestions" classname="com.buildai.app.builder.BriefPlannerTest" time="0.001"/>
+  <testcase name="malformedArraysCannotHideQuestionsChecksOrUserEvidence" classname="com.buildai.app.builder.BriefPlannerTest" time="0.004"/>
+  <testcase name="readinessUsesDecisionsAndOneInputCanProduceAPlan" classname="com.buildai.app.builder.BriefPlannerTest" time="0.001"/>
+  <testcase name="earlyPlanKeepsUnknownsAsVisibleAssumptionsAndEditsInvalidateApproval" classname="com.buildai.app.builder.BriefPlannerTest" time="0.001"/>
+  <testcase name="acceptedSuggestionsSurviveOmissionAndCannotBeRewrittenByTheModel" classname="com.buildai.app.builder.BriefPlannerTest" time="0.0"/>
+  <system-out><![CDATA[Synthetic repeated evidence: 203101 characters to 8348; exact quotes, IDs and order retained
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

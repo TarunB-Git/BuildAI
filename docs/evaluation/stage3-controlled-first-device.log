@@ -1,0 +1,225 @@
+Boot: 35 seconds; two guest CPUs, 2048 MB, two bounded host cores.
+Performing Streamed Install
+Success
+Performing Streamed Install
+Success
+Instrumentation: 20 seconds.
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.CreatePlanningTest:
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<[Centim]etres to inches> but was:<[M]etres to inches>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+
+INSTRUMENTATION_STATUS: stream=
+Error in questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(com.buildai.app.CreatePlanningTest):
+org.junit.ComparisonFailure: expected:<[Centim]etres to inches> but was:<[M]etres to inches>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeBuilderTest:
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stack=org.junit.runners.model.InvalidTestClassError: Invalid test class 'com.buildai.app.NativeBuilderTest':
+  1. Method repairedNativeBuildPublishesActualConverterAndChangedInputsWork() should be void
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:92)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:74)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:50)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4Builder.runnerForClass(AndroidJUnit4Builder.java:81)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at androidx.test.internal.runner.AndroidRunnerBuilder.runnerForClass(AndroidRunnerBuilder.java:152)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:45)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:663)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:437)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2594)
+
+INSTRUMENTATION_STATUS: stream=
+Error in initializationError(com.buildai.app.NativeBuilderTest):
+org.junit.runners.model.InvalidTestClassError: Invalid test class 'com.buildai.app.NativeBuilderTest':
+  1. Method repairedNativeBuildPublishesActualConverterAndChangedInputsWork() should be void
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:92)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:74)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:50)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4Builder.runnerForClass(AndroidJUnit4Builder.java:81)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at androidx.test.internal.runner.AndroidRunnerBuilder.runnerForClass(AndroidRunnerBuilder.java:152)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:45)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:663)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:437)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2594)
+
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.DurableInteractionTest:
+INSTRUMENTATION_STATUS: test=interruptedPartialReplyIsRetainedAndRetryable
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interruptedPartialReplyIsRetainedAndRetryable
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=legacyImportKeepsOriginalAndDoesNotOverwriteNewerDatabaseState
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=legacyImportKeepsOriginalAndDoesNotOverwriteNewerDatabaseState
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=replyAndDraftSurviveBackAndViewModelDestruction
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=replyAndDraftSurviveBackAndViewModelDestruction
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=unsentAssistantEntryAndModeSurviveViewModelRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=unsentAssistantEntryAndModeSurviveViewModelRecreation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=newInputQueuesWithoutChangingTheActiveRequest
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=7
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=newInputQueuesWithoutChangingTheActiveRequest
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 14.003
+There were 2 failures:
+1) questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(com.buildai.app.CreatePlanningTest)
+org.junit.ComparisonFailure: expected:<[Centim]etres to inches> but was:<[M]etres to inches>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+2) initializationError(com.buildai.app.NativeBuilderTest)
+org.junit.runners.model.InvalidTestClassError: Invalid test class 'com.buildai.app.NativeBuilderTest':
+  1. Method repairedNativeBuildPublishesActualConverterAndChangedInputsWork() should be void
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:92)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:74)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:50)
+	at androidx.test.internal.runner.junit4.AndroidJUnit4Builder.runnerForClass(AndroidJUnit4Builder.java:81)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at androidx.test.internal.runner.AndroidRunnerBuilder.runnerForClass(AndroidRunnerBuilder.java:152)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:45)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:663)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:437)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2594)
+
+FAILURES!!!
+Tests run: 7,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1
+Emulator shutdown requested.

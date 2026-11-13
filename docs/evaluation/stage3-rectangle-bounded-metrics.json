@@ -1,0 +1,19 @@
+{
+  "scenario": "rectangle-diagnostic",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "148dc17380124f8feb3dbd4f813f9c1d1b63c2f409277b3bfea4428d07c4f8d5",
+  "elapsedMsIncludingUiChecks": 91015,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 0,
+  "error": "Calculate area failed after 0 repairs: Collection contains no element matching the predicate.. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByAttempt": [
+    212
+  ],
+  "promptTokensByAttempt": [
+    920
+  ],
+  "physicalPhone": false
+}

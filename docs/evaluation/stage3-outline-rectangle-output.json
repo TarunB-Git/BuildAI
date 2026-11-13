@@ -1,0 +1,41 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "outlineFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": false,
+      "output": "INPUT: Width (decimal), Height (decimal)  \nOUTPUT: Area (calculated as Width × Height)  \nACTION: Calculate  \nSAVED: No records  \nUSER ACTION: Enter values, view result.",
+      "generatedTokens": 42,
+      "promptTokens": 309
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"SUMMARY\",\"BUTTON\"],\"expressions\":[],\"actions\":[\"START_TIMER\",\"STOP_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 30,
+      "promptTokens": 585
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Timer actions need a timer control. Remove timer actions when no timer is requested.",
+      "receivedFailedFeature": 131,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"SUMMARY\",\"BUTTON\"],\"expressions\":[],\"actions\":[\"START_TIMER\",\"STOP_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 30,
+      "promptTokens": 626
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Timer actions need a timer control. Remove timer actions when no timer is requested.",
+      "receivedFailedFeature": 131,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"SUMMARY\",\"BUTTON\"],\"expressions\":[],\"actions\":[\"START_TIMER\",\"STOP_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 30,
+      "promptTokens": 626
+    }
+  ]
+}

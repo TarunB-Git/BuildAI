@@ -1,0 +1,93 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeBuilderTest:
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.LocalNativeBuilderTest:
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 420000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:505)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:1012)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest):
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 420000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:505)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:1012)
+
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 444.931
+There was 1 failure:
+1) actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest)
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 420000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:505)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:1012)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

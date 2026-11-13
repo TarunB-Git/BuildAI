@@ -1,0 +1,33 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 900,
+  "apkSha256": "509c3d7289fc6091753308b89756f4e52c1f4c37d51042061db0ede52d2a4e2d",
+  "elapsedMsIncludingUiChecks": 900012,
+  "testApkSha256": "95bda777a211f52d2e20564ad2114795d9fcb6d0333544a467e107c1520f6cbb",
+  "successfulOutcome": false,
+  "jobStatus": "RUNNING",
+  "repairLimit": 2,
+  "selectionGrammarEnabled": true,
+  "approvedCapabilities": null,
+  "error": "Calculate area: A feature attempted to overwrite existing IDs; use a scoped edit instead",
+  "generatedTokensByCall": [
+    51,
+    215,
+    372,
+    215,
+    498,
+    0
+  ],
+  "promptTokensByCall": [
+    324,
+    535,
+    620,
+    794,
+    905,
+    259
+  ],
+  "physicalPhone": false
+}

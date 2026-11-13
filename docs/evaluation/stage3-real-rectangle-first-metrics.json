@@ -1,0 +1,20 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "95a606147819ca69bfe83d6a1a3721d07cfe9e8ecd283ff7d3b19e1103a82683",
+  "elapsedMsIncludingUiChecks": 420043,
+  "successfulOutcome": false,
+  "jobStatus": "test deadline or interruption",
+  "error": null,
+  "generatedTokensByAttempt": [
+    558,
+    563
+  ],
+  "promptTokensByAttempt": [
+    773,
+    775
+  ],
+  "physicalPhone": false
+}

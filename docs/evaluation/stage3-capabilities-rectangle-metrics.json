@@ -1,0 +1,27 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "c8ca470ad2ff503311e771d5f182acf6aab3bb569e68661b8fe53f9bfc844025",
+  "elapsedMsIncludingUiChecks": 420017,
+  "successfulOutcome": false,
+  "jobStatus": "RUNNING",
+  "repairLimit": 2,
+  "error": "Calculate area: COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.",
+  "generatedTokensByCall": [
+    103,
+    819,
+    110,
+    113,
+    219
+  ],
+  "promptTokensByCall": [
+    406,
+    687,
+    970,
+    418,
+    723
+  ],
+  "physicalPhone": false
+}

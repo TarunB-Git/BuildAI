@@ -1,0 +1,14 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": false,
+      "output": "{\n  \"components\": {\n    \"INPUT\": [\"width\", \"height\"],\n    \"SUMMARY\": [\"Area\"],\n    \"TEXT\": [\"Width\", \"Height\"],\n    \"BUTTON\": []\n  },\n  \"expressions\": {\n    \"INPUT\": [\"width\", \"height\"],\n    \"NUMBER\": [],\n    \"TEXT\": [],\n    \"BOOLEAN\": [],\n    \"COUNT\": [],\n    \"SUM\": [\"Area\"],\n    \"NOW\": [],\n    \"TODAY\": [],\n    \"ADD\": [],\n    \"SUBTRACT\": [],\n    \"MULTIPLY\": [\"width\", \"height\"],\n    \"DIVIDE\": [],\n    \"CONCAT\": [],\n    \"EQ\": [],\n    \"GT\": [],\n    \"CONTAINS\": [],\n    \"AND\": [],\n    \"IF\": [],\n    \"DATE_ADD\": [],\n    \"DATE_DIFF\": [],\n    \"BEFORE\": [],\n    \"AFTER\": [],\n    \"RECORD\": []\n  },\n  \"actions\": {\n    \"INSERT\/UPDATE\/DELETE\": [],\n    \"NAVIGATE\": [\"home\"],\n    \"ASSIGN\": []\n  },\n  \"records\": [],\n  \"screens\": [\"home\"]\n}",
+      "generatedTokens": 233,
+      "promptTokens": 406
+    }
+  ]
+}

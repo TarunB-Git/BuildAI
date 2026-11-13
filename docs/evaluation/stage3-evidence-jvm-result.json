@@ -1,0 +1,9 @@
+{
+  "tests": 74,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "time": 5.799999999999999,
+  "gradle_wall_seconds": 108,
+  "apk_sha256": "885ae0148fcdf9091d368175195ae511e7587478f6825829608b096dae142e5e"
+}

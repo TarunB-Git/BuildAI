@@ -1,0 +1,219 @@
+[
+  {
+    "id": "01-apps-sea",
+    "title": "Apps · Sea blue",
+    "theme": "Sea blue",
+    "path": "images/01-apps-sea.png",
+    "group": "Entry"
+  },
+  {
+    "id": "02-apps-forest",
+    "title": "Apps · Forest green",
+    "theme": "Forest green",
+    "path": "images/02-apps-forest.png",
+    "group": "Entry"
+  },
+  {
+    "id": "03-apps-night",
+    "title": "Apps · Night gray",
+    "theme": "Night gray",
+    "path": "images/03-apps-night.png",
+    "group": "Entry"
+  },
+  {
+    "id": "04-chat-keyboard",
+    "title": "Chat with keyboard",
+    "theme": "Sea blue",
+    "path": "images/04-chat-keyboard.png",
+    "group": "Entry"
+  },
+  {
+    "id": "05-chat-list",
+    "title": "Chat",
+    "theme": "Sea blue",
+    "path": "images/05-chat-list.png",
+    "group": "Entry"
+  },
+  {
+    "id": "06-create",
+    "title": "Create · drafts",
+    "theme": "Sea blue",
+    "path": "images/06-create.png",
+    "group": "Entry"
+  },
+  {
+    "id": "07-requirements",
+    "title": "App requirements conversation",
+    "theme": "Sea blue",
+    "path": "images/07-requirements.png",
+    "group": "Planning"
+  },
+  {
+    "id": "08-appearance",
+    "title": "Appearance",
+    "theme": "Forest green",
+    "path": "images/08-appearance.png",
+    "group": "Planning"
+  },
+  {
+    "id": "09-cloud",
+    "title": "Cloud AI providers",
+    "theme": "Sea blue",
+    "path": "images/09-cloud.png",
+    "group": "Settings"
+  },
+  {
+    "id": "10-local",
+    "title": "Local models",
+    "theme": "Forest green",
+    "path": "images/10-local.png",
+    "group": "Settings"
+  },
+  {
+    "id": "11-queue",
+    "title": "Editable queued requests",
+    "theme": "Night gray",
+    "path": "images/11-queue.png",
+    "group": "Work"
+  },
+  {
+    "id": "12-history",
+    "title": "Version history",
+    "theme": "Forest green",
+    "path": "images/12-history.png",
+    "group": "Editing"
+  },
+  {
+    "id": "13-settings",
+    "title": "Settings",
+    "theme": "Sea blue",
+    "path": "images/13-settings.png",
+    "group": "Settings"
+  },
+  {
+    "id": "14-activity",
+    "title": "Activity and recovery",
+    "theme": "Night gray",
+    "path": "images/14-activity.png",
+    "group": "Work"
+  },
+  {
+    "id": "15-model-info",
+    "title": "Model information",
+    "theme": "Forest green",
+    "path": "images/15-model-info.png",
+    "group": "Settings"
+  },
+  {
+    "id": "16-themes",
+    "title": "Theme selection",
+    "theme": "Sea blue",
+    "path": "images/16-themes.png",
+    "group": "Settings"
+  },
+  {
+    "id": "17-native-plan",
+    "title": "Review requirements",
+    "theme": "Forest green",
+    "path": "images/17-native-plan.png",
+    "group": "Planning"
+  },
+  {
+    "id": "18-web-plan",
+    "title": "Web app requirements",
+    "theme": "Sea blue",
+    "path": "images/18-web-plan.png",
+    "group": "Planning"
+  },
+  {
+    "id": "19-native-preview",
+    "title": "Native app preview",
+    "theme": "Forest green",
+    "path": "images/19-native-preview.png",
+    "group": "Using apps"
+  },
+  {
+    "id": "20-runner",
+    "title": "Standalone app",
+    "theme": "Forest green",
+    "path": "images/20-runner.png",
+    "group": "Using apps"
+  },
+  {
+    "id": "21-web-preview",
+    "title": "HTML app preview",
+    "theme": "Sea blue",
+    "path": "images/21-web-preview.png",
+    "group": "Using apps"
+  },
+  {
+    "id": "22-edit",
+    "title": "Request a change",
+    "theme": "Sea blue",
+    "path": "images/22-edit.png",
+    "group": "Editing"
+  },
+  {
+    "id": "23-review",
+    "title": "Review a proposed change",
+    "theme": "Sea blue",
+    "path": "images/23-review.png",
+    "group": "Editing"
+  },
+  {
+    "id": "24-build-error",
+    "title": "Build recovery",
+    "theme": "Night gray",
+    "path": "images/24-build-error.png",
+    "group": "Work"
+  },
+  {
+    "id": "25-advanced",
+    "title": "Advanced settings",
+    "theme": "Sea blue",
+    "path": "images/25-advanced.png",
+    "group": "Settings"
+  },
+  {
+    "id": "26-model-catalogue",
+    "title": "Models · larger catalogue",
+    "theme": "Forest green",
+    "path": "images/26-model-catalogue.png",
+    "group": "Settings"
+  },
+  {
+    "id": "27-ai-privacy",
+    "title": "AI & privacy",
+    "theme": "Sea blue",
+    "path": "images/27-ai-privacy.png",
+    "group": "Settings"
+  },
+  {
+    "id": "28-about",
+    "title": "About BuildAI",
+    "theme": "Sea blue",
+    "path": "images/28-about.png",
+    "group": "Settings"
+  },
+  {
+    "id": "29-manual",
+    "title": "Offline tool configuration · enabled",
+    "theme": "Forest green",
+    "path": "images/29-manual.png",
+    "group": "Planning"
+  },
+  {
+    "id": "30-starters",
+    "title": "Offline starter picker · enabled",
+    "theme": "Sea blue",
+    "path": "images/30-starters.png",
+    "group": "Planning"
+  },
+  {
+    "id": "31-proposed-preview",
+    "title": "Preview proposed change",
+    "theme": "Forest green",
+    "path": "images/31-proposed-preview.png",
+    "group": "Editing"
+  }
+]

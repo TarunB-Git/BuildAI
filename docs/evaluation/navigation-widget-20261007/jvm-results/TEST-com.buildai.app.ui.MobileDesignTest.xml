@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.ui.MobileDesignTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:13" hostname="Tar-IdeaPad-3-15ITL6" time="0.005">
+  <properties/>
+  <testcase name="oldProjectsRemainReadableAndUnfinishedDraftsRoundTrip" classname="com.buildai.app.ui.MobileDesignTest" time="0.001"/>
+  <testcase name="allThemesMeetNormalTextContrastOnTheirSharedSurfaces" classname="com.buildai.app.ui.MobileDesignTest" time="0.003"/>
+  <testcase name="explicitNamesSurviveNewMessages" classname="com.buildai.app.ui.MobileDesignTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

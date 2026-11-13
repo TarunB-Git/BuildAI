@@ -1,0 +1,198 @@
+[
+  {
+    "id": "01-apps-sea-blue",
+    "title": "Apps \u00b7 Sea blue",
+    "group": "Entry",
+    "theme": "Sea blue",
+    "path": "images/01-apps-sea-blue.png"
+  },
+  {
+    "id": "02-chats-sea-blue",
+    "title": "Chats",
+    "group": "Entry",
+    "theme": "Sea blue",
+    "path": "images/02-chats-sea-blue.png"
+  },
+  {
+    "id": "03-create",
+    "title": "Create an app",
+    "group": "Entry",
+    "theme": "Sea blue",
+    "path": "images/03-create-v2.png"
+  },
+  {
+    "id": "04-project-chat",
+    "title": "Project conversation",
+    "group": "Planning",
+    "theme": "Sea blue",
+    "path": "images/04-project-chat.png"
+  },
+  {
+    "id": "05-native-plan",
+    "title": "Native app plan",
+    "group": "Planning",
+    "theme": "Sea blue",
+    "path": "images/05-native-plan-v2.png"
+  },
+  {
+    "id": "06-web-plan",
+    "title": "Web app plan",
+    "group": "Planning",
+    "theme": "Sea blue",
+    "path": "images/06-web-plan.png"
+  },
+  {
+    "id": "07-manual",
+    "title": "Build manually",
+    "group": "Planning",
+    "theme": "Forest green",
+    "path": "images/07-manual.png"
+  },
+  {
+    "id": "08-appearance",
+    "title": "Optional appearance",
+    "group": "Planning",
+    "theme": "Forest green",
+    "path": "images/08-appearance.png"
+  },
+  {
+    "id": "09-activity",
+    "title": "Activity",
+    "group": "Work",
+    "theme": "Night gray",
+    "path": "images/09-activity.png"
+  },
+  {
+    "id": "10-scoped-edit",
+    "title": "Request an app change",
+    "group": "Editing",
+    "theme": "Sea blue",
+    "path": "images/10-scoped-edit.png"
+  },
+  {
+    "id": "11-edit-review",
+    "title": "Review a proposed change",
+    "group": "Editing",
+    "theme": "Sea blue",
+    "path": "images/11-edit-review-v2.png"
+  },
+  {
+    "id": "12-preview",
+    "title": "Native app preview",
+    "group": "Using apps",
+    "theme": "Forest green",
+    "path": "images/12-preview.png"
+  },
+  {
+    "id": "13-native-runner",
+    "title": "Standalone native app",
+    "group": "Using apps",
+    "theme": "Forest green",
+    "path": "images/13-native-runner.png"
+  },
+  {
+    "id": "14-web-preview",
+    "title": "Web app preview",
+    "group": "Using apps",
+    "theme": "Sea blue",
+    "path": "images/14-web-preview.png"
+  },
+  {
+    "id": "15-settings",
+    "title": "Settings",
+    "group": "Settings",
+    "theme": "Sea blue",
+    "path": "images/15-settings.png"
+  },
+  {
+    "id": "16-ai-privacy",
+    "title": "AI & privacy",
+    "group": "Settings",
+    "theme": "Sea blue",
+    "path": "images/16-ai-privacy.png"
+  },
+  {
+    "id": "17-local-ai",
+    "title": "Local AI setup",
+    "group": "Settings",
+    "theme": "Forest green",
+    "path": "images/17-local-ai.png"
+  },
+  {
+    "id": "18-model-catalogue",
+    "title": "Available models",
+    "group": "Settings",
+    "theme": "Forest green",
+    "path": "images/18-model-catalogue.png"
+  },
+  {
+    "id": "19-cloud-ai",
+    "title": "Cloud AI setup",
+    "group": "Settings",
+    "theme": "Sea blue",
+    "path": "images/19-cloud-ai.png"
+  },
+  {
+    "id": "20-themes",
+    "title": "Theme selection",
+    "group": "Settings",
+    "theme": "Night gray",
+    "path": "images/20-themes.png"
+  },
+  {
+    "id": "21-about",
+    "title": "About BuildAI",
+    "group": "Settings",
+    "theme": "Sea blue",
+    "path": "images/21-about.png"
+  },
+  {
+    "id": "22-history",
+    "title": "Version history",
+    "group": "Editing",
+    "theme": "Night gray",
+    "path": "images/22-history.png"
+  },
+  {
+    "id": "23-queue",
+    "title": "Queued requests",
+    "group": "Work",
+    "theme": "Sea blue",
+    "path": "images/23-queue.png"
+  },
+  {
+    "id": "24-build-error",
+    "title": "Build recovery",
+    "group": "Work",
+    "theme": "Sea blue",
+    "path": "images/24-build-error.png"
+  },
+  {
+    "id": "25-apps-forest-green",
+    "title": "Apps \u00b7 Forest green",
+    "group": "Entry",
+    "theme": "Forest green",
+    "path": "images/25-apps-forest-green.png"
+  },
+  {
+    "id": "26-apps-night-gray",
+    "title": "Apps \u00b7 Night gray",
+    "group": "Entry",
+    "theme": "Night gray",
+    "path": "images/26-apps-night-gray.png"
+  },
+  {
+    "id": "27-general-chat",
+    "title": "General conversation",
+    "group": "Entry",
+    "theme": "Sea blue",
+    "path": "images/27-general-chat.png"
+  },
+  {
+    "id": "28-offline-starters",
+    "title": "Offline starter picker",
+    "group": "Planning",
+    "theme": "Sea blue",
+    "path": "images/28-offline-starters.png"
+  }
+]

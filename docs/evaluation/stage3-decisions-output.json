@@ -1,0 +1,59 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "outlineFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": false,
+      "output": "Required inputs: WIDTH (decimal), HEIGHT (decimal). Output: AREA (WIDTH * HEIGHT). Saved data: RECORD_LIST (contains area calculations). User action: ENTER. \n\nBehaviors: Live result updates automatically. No calculate button. No arithmetic action.",
+      "generatedTokens": 51,
+      "promptTokens": 324
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\n\"controls\": {\n\"inputFields\": true,\n\"liveResult\": true,\n\"staticText\": false,\n\"button\": false,\n\"savedList\": true,\n\"deadlineTimer\": false,\n\"quiz\": false\n},\n\"operations\": {\n\"countRecords\": false,\n\"sumStoredNumbers\": false,\n\"currentTimestamp\": false,\n\"currentDate\": false,\n\"addDays\": false,\n\"daysBetween\": false,\n\"dateBefore\": false,\n\"dateAfter\": false,\n\"add\": false,\n\"subtract\": false,\n\"multiply\": false,\n\"divide\": false,\n\"joinText\": false,\n\"equal\": false,\n\"greaterThan\": false,\n\"containsText\": false,\n\"allConditions\": false,\n\"ifThenElse\": false\n},\n\"actions\": {\n\"saveRecord\": true,\n\"updateRecord\": false,\n\"deleteRecord\": false,\n\"navigate\": true,\n\"assignInput\": true,\n\"startTimer\": false,\n\"stopTimer\": false\n},\n\"newData\": true,\n\"newScreens\": false\n}",
+      "generatedTokens": 215,
+      "promptTokens": 535
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"SUMMARY\",\n\"label\": \"Area\",\n\"expression\": {\n\"op\": \"INPUT\",\n\"value\": \"area\"\n}\n},\n{\n\"id\": \"areaList\",\n\"kind\":\"RECORD_LIST\",\n\"label\": \"Area Calculations\",\n\"entityId\": \"area\",\n\"rowActions\": []\n}\n],\n\"screens\": [],\n\"entities\": [\n{\n\"id\": \"area\",\n\"fields\": [\n{\n\"id\": \"width\",\n\"label\": \"Width\",\n\"kind\": \"REFERENCE\",\n\"required\": true\n},\n{\n\"id\": \"height\",\n\"label\": \"Height\",\n\"kind\": \"REFERENCE\",\n\"required\": true\n},\n{\n\"id\": \"area\",\n\"label\": \"Area\",\n\"kind\": \"NUMBER\",\n\"required\": true\n}\n]\n}\n],\n\"actions\": [\n{\n\"id\": \"insertArea\",\n\"kind\": \"INSERT\",\n\"label\": \"Insert Area\",\n\"target\": \"area\",\n\"values\": {\n\"width\": {\"op\": \"INPUT\", \"value\": \"width\"},\n\"height\": {\"op\": \"INPUT\", \"value\": \"height\"}\n}\n},\n{\n\"id\": \"navigateArea\",\n\"kind\": \"NAVIGATE\",\n\"label\": \"Go to Area\",\n\"target\": \"areaList\"\n,\n\"values\": {}\n},\n{\n\"id\": \"assignArea\",\n\"kind\": \"ASSIGN\",\n\"label\": \"Assign Area\",\n\"target\": \"area\",\n\"values\": {\n\"area\": {\"op\": \"INPUT\", \"value\": \"area\"}\n}\n}\n]\n}",
+      "generatedTokens": 372,
+      "promptTokens": 620
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "A relationship references a missing collection",
+      "receivedFailedFeature": 998,
+      "grammarEnabled": true,
+      "output": "{\n\"controls\": {\n\"inputFields\": true,\n\"liveResult\": true,\n\"staticText\": false,\n\"button\": false,\n\"savedList\": true,\n\"deadlineTimer\": false,\n\"quiz\": false\n},\n\"operations\": {\n\"countRecords\": false,\n\"sumStoredNumbers\": true,\n\"currentTimestamp\": false,\n\"currentDate\": false,\n\"addDays\": false,\n\"daysBetween\": false,\n\"dateBefore\": false,\n\"dateAfter\": false,\n\"add\": false,\n\"subtract\": false,\n\"multiply\": false,\n\"divide\": false,\n\"joinText\": false,\n\"equal\": false,\n\"greaterThan\": false,\n\"containsText\": false,\n\"allConditions\": false,\n\"ifThenElse\": false\n},\n\"actions\": {\n\"saveRecord\": false,\n\"updateRecord\": false,\n\"deleteRecord\": false,\n\"navigate\": true,\n\"assignInput\": true,\n\"startTimer\": false,\n\"stopTimer\": false\n},\n\"newData\": true,\n\"newScreens\": true\n}",
+      "generatedTokens": 215,
+      "promptTokens": 794
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "A relationship references a missing collection",
+      "receivedFailedFeature": 998,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"SUMMARY\",\n\"label\": \"Area\",\n\"expression\": {\n\"op\": \"INPUT\",\n\"value\": \"area\"\n}\n},\n{\n\"id\": \"areaList\",\n\"kind\":\"RECORD_LIST\",\n\"label\": \"Area Calculations\",\n\"entityId\": \"area\",\n\"rowActions\": []\n}\n],\n\"screens\": [\n{\n\"id\": \"home\",\n\"title\": \"Calculator\"\n,\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"SUMMARY\",\n\"label\": \"Area\",\n\"expression\": {\n\"op\": \"INPUT\",\n\"value\": \"area\"\n}\n},\n{\n\"id\": \"areaList\",\n\"kind\":\"RECORD_LIST\",\n\"label\": \"Area Calculations\",\n\"entityId\": \"area\",\n\"rowActions\": []\n}\n]\n}\n],\n\"entities\": [\n{\n\"id\": \"area\",\n\"fields\": [\n{\n\"id\": \"width\",\n\"label\": \"Width\",\n\"kind\": \"REFERENCE\",\n\"required\": true\n},\n{\n\"id\": \"height\",\n\"label\": \"Height\",\n\"kind\": \"REFERENCE\",\n\"required\": true\n},\n{\n\"id\": \"area\",\n\"label\": \"Area\",\n\"kind\": \"NUMBER\",\n\"required\": true\n}\n]\n}\n],\n\"actions\": [\n{\n\"id\": \"insertArea\",\n\"kind\": \"ASSIGN\",\n\"label\": \"Insert Area\",\n\"target\": \"area\",\n\"values\": {\n\"area\": {\n\"op\": \"INPUT\",\n\"value\": \"area\"\n}\n}\n},\n{\n\"id\": \"navigateArea\",\n\"kind\": \"NAVIGATE\",\n\"label\": \"Go to Area\",\n\"target\": \"areaList\",\n\"values\": {}\n},\n{\n\"id\": \"assignArea\",\n\"kind\": \"ASSIGN\",\n\"label\": \"Assign Area\",\n\"target\": \"area\",\n\"values\": {\n\"area\": {\n\"op\": \"INPUT\",\n\"value\": \"area\"\n}\n}\n}\n]\n}",
+      "generatedTokens": 498,
+      "promptTokens": 905
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "A feature attempted to overwrite existing IDs; use a scoped edit instead",
+      "receivedFailedFeature": 1330,
+      "grammarEnabled": true,
+      "output": "",
+      "generatedTokens": 0,
+      "promptTokens": 259
+    }
+  ]
+}

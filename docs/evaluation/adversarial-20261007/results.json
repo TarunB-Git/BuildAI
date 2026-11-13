@@ -1,0 +1,10 @@
+{
+  "tests": 83,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_seconds": 6.196,
+  "debug_apk_sha256": "ebee5a864c3aa958a8f916b03b383e723e899938efc15f0570645f9f9b1ab098",
+  "audit_reproductions": 8,
+  "device_checks_executed": 0
+}

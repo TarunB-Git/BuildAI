@@ -1,0 +1,11 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "failureToRepair": "null",
+      "output": "{\n  \"screenId\": \"area\",\n  \"components\": [\n    {\n      \"id\": \"id\",\n      \"kind\": \"TEXT|INPUT|BUTTON|RECORD_LIST|SUMMARY|TIMER|QUIZ\",\n      \"label\": \"Label\"\n    }\n  ],\n  \"screens\": [\n    {\n      \"id\": \"id\",\n      \"title\": \"Title\",\n      \"components\": []\n    }\n  ],\n  \"entities\": [\n    {\n      \"id\": \"id\",\n      \"fields\": [\n        {\n          \"id\": \"field\",\n          \"label\": \"Field\",\n          \"kind\": \"TEXT|NUMBER|BOOLEAN|DATE\",\n          \"required\": false\n        }\n      ]\n    }\n  ],\n  \"actions\": [\n    {\n      \"id\": \"id\",\n      \"kind\": \"INSERT|UPDATE|DELETE|NAVIGATE|ASSIGN|START_TIMER|STOP_TIMER\",\n      \"label\": \"Label\",\n      \"target\": \"entity, screen or timer id\",\n      \"values\": {\n        \"field\": \"expression\"\n      }\n    }\n  ],\n  \"checks\": [\n    {\n      \"component\": \"summaryId\",\n      \"equals\": \"10\"\n    },\n    {\n      \"component\": \"listId\",\n      \"count\": 1\n    },\n    {\n      \"component\": \"entity\",\n      \"equals\": \"saved value\"\n    },\n    {\n      \"component\": \"screen\",\n      \"screenId\"\n    : \"id\"\n    }\n  ],\n  \"assertions\": [\n    {\n      \"component\": \"summaryId\",\n      \"equals\": \"10\"\n    },\n    {\n      \"component\": \"listId\",\n      \"count\": 1\n    },\n    {\n      \"component\": \"entity\",\n      \"field\": \"fieldId\",\n      \"index\": 0,\n      \"equals\": \"saved value\"\n    },\n    {\n      \"component\": \"entity\",\n      \"field\": \"fieldId\",\n      \"index\": 0,\n      \"equals\": \"saved value\"\n    },\n    {\n      \"component\": \"screen\",\n      \"screenId\": \"id\"\n    }\n  ]\n}",
+      "generatedTokens": 445,
+      "promptTokens": 900
+    }
+  ]
+}

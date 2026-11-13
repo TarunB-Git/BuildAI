@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-04",
+  "jvm_tests": {
+    "tests": 74,
+    "failures": 0
+  },
+  "device_tests": {
+    "distinct_tests": 21,
+    "passed": 21,
+    "first_run_passed": 19,
+    "corrected_ui_rerun_passed": 3
+  },
+  "build": "passed",
+  "lint": "passed",
+  "font_scale_checked": 1.5,
+  "viewport_dp": 411,
+  "older_workflow_test_failures": 4,
+  "contrast": {
+    "primary_text": 15.88,
+    "secondary_text": 5.3,
+    "button_text": 5.38
+  }
+}

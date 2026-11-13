@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.data.api.LocalAppScaffoldTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:11" hostname="Tar-IdeaPad-3-15ITL6" time="0.036">
+  <properties/>
+  <testcase name="refusesTruncatedOutputInsteadOfCreatingAList" classname="com.buildai.app.data.api.LocalAppScaffoldTest" time="0.002"/>
+  <testcase name="wrapsStructuredCodeAndKeepsScriptClosingTextInsideTheScript" classname="com.buildai.app.data.api.LocalAppScaffoldTest" time="0.033"/>
+  <testcase name="preservesCustomBehaviorAndEscapesPageLabels" classname="com.buildai.app.data.api.LocalAppScaffoldTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

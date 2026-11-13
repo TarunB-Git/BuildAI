@@ -1,0 +1,23 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"SUMMARY\",\n\"label\": \"Area\",\n\"expression\": {\"op\":\"MULTIPLY\",\"args\":[{\"op\":\"INPUT\",\"value\":\"width\"},{\"op\":\"INPUT\",\"value\":\"height\"}]}\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": []\n}",
+      "generatedTokens": 125,
+      "promptTokens": 513
+    },
+    {
+      "tool": "proposeInteractionChecks",
+      "failureToRepair": "",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"checks\":[\n{\"name\":\"Width 2.5 and height 4 shows Area 10\",\"inputs\":{\"width\":\"2.5\",\"height\":\"4\"},\"steps\":[\n],\"assertions\": [{\"component\":\"area\",\"equals\":\"10\"}]}\n,{\"name\":\"Width 7 and height 3 shows Area 21\",\"inputs\":{\"width\":\"7\",\"height\":\"3\"},\"steps\":[\n],\"assertions\": [{\"component\":\"area\",\"equals\":\"21\"}]}\n]}",
+      "generatedTokens": 97,
+      "promptTokens": 638
+    }
+  ]
+}

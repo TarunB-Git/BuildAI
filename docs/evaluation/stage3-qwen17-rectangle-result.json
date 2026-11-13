@@ -1,0 +1,24 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 900,
+  "apkSha256": "0f167350f1dae4fe179cb608d226e04cab10e81d5df1a1a142c789a97374fe0f",
+  "elapsedMsIncludingUiChecks": 143094,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "error": "Calculate area failed after 2 repairs: COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    81,
+    109,
+    93
+  ],
+  "promptTokensByCall": [
+    406,
+    418,
+    418
+  ],
+  "physicalPhone": false
+}

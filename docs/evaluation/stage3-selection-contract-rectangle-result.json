@@ -1,0 +1,31 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 900,
+  "apkSha256": "1e28d09791b2552975ab180ef48e4c6e9e6c889125ea476cbc8f7869d7ad5b83",
+  "elapsedMsIncludingUiChecks": 598173,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "selectionGrammarEnabled": true,
+  "error": "Calculate area failed after 2 repairs: A timer action needs a timer control. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    27,
+    225,
+    26,
+    199,
+    26,
+    250
+  ],
+  "promptTokensByCall": [
+    523,
+    466,
+    691,
+    601,
+    691,
+    601
+  ],
+  "physicalPhone": false
+}

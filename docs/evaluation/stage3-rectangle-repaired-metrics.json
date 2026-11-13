@@ -1,0 +1,23 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "541ebfa43b8179a73a1b1f2ab96c9636a9b9b695e420d99e0423760e63b8e4a7",
+  "elapsedMsIncludingUiChecks": 286842,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "error": "Calculate area failed after 2 repairs: The app changed. Open its latest screen and try again.. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByAttempt": [
+    252,
+    248,
+    245
+  ],
+  "promptTokensByAttempt": [
+    925,
+    1224,
+    1249
+  ],
+  "physicalPhone": false
+}

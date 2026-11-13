@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.data.local.QuickPlanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:11" hostname="Tar-IdeaPad-3-15ITL6" time="0.0">
+  <properties/>
+  <testcase name="retainsIdeaAndBuildsReviewableOfflinePlan" classname="com.buildai.app.data.local.QuickPlanTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

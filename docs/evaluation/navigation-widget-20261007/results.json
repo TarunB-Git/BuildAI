@@ -1,0 +1,15 @@
+{
+  "tests": 91,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "android_tests": 12,
+  "android_failures": 0,
+  "android_api": 35,
+  "android_seconds": 97.518,
+  "lint_errors": 0,
+  "lint_warnings": 55,
+  "apk_sha256": "1d922f31260fc864eff49834c3da64d79db42789964ce9eac57bde591c763a9a",
+  "new_jvm_regressions": 8,
+  "new_android_regressions": 5
+}

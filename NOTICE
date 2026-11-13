@@ -1,0 +1,15 @@
+BuildAI
+Copyright 2026 BuildAI contributors
+
+BuildAI is licensed under Apache License 2.0 (see LICENSE).
+
+The bundled CPU inference runtime uses llama.cpp and its dependencies, pinned
+through third_party/llama.cpp. Retain its LICENSE and third-party notices when
+distributing source or binaries. Upstream: https://github.com/ggml-org/llama.cpp
+
+Android/Jetpack, Kotlin, kotlinx.coroutines, OkHttp, and other dependencies retain
+their respective licenses. A release must include its dependency/license report.
+
+Downloaded models are separate third-party artifacts. Apache 2.0 for BuildAI does
+not grant rights to every model. See each publisher's pinned model repository and
+license before redistribution. No model weights are included in this repository.

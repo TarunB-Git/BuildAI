@@ -1,0 +1,59 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"TEXT\",\"BUTTON\"],\"expressions\":[\"NUMBER\"],\"actions\":[\"START_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 27,
+      "promptTokens": 523
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"TEXT\",\n\"label\": \"Area\",\n\"expression\": {\"op\":\"INPUT\",\"value\":\"width\"}\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": [\n{\n\"id\": \"start_timer_1\",\n\"kind\": \"START_TIMER\",\n\"label\": \"Start Timer\",\n\"target\": \"timer_1\",\n\"values\": {\n\"width\": {\"op\":\"INPUT\",\"value\":\"width\"},\n\"height\": {\"op\":\"INPUT\",\"value\":\"height\"}\n}\n},\n{\n\"id\": \"timer_1\",\n\"kind\": \"START_TIMER\",\n\"label\": \"Timer\",\n\"target\": \"timer_1\",\n\"values\": {\n\"width\": {\"op\":\"INPUT\",\"value\":\"width\"},\n\"height\": {\"op\":\"INPUT\",\"value\":\"height\"}\n}\n}\n]\n}",
+      "generatedTokens": 225,
+      "promptTokens": 466
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "A timer action needs a timer control",
+      "receivedFailedFeature": 636,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"TEXT\",\"BUTTON\"],\"expressions\":[],\"actions\":[\"START_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 26,
+      "promptTokens": 691
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "A timer action needs a timer control",
+      "receivedFailedFeature": 636,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\":\"Width\",\n\"fieldKind\":\"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\":\"Height\",\n\"fieldKind\":\"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"TEXT\",\n\"label\":\"Area\",\n\"expression\":{\"op\":\"INPUT\",\"value\":\"width\"}\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": [\n{\n\"id\":\"start_timer_1\",\n\"kind\":\"START_TIMER\",\n\"label\":\"Start Timer\",\n\"target\":\"timer_1\",\n\"values\":{\"width\":{\"op\":\"INPUT\",\"value\":\"width\"},\"height\":{\"op\":\"INPUT\",\"value\":\"height\"}}\n},\n{\n\"id\":\"timer_1\",\n\"kind\":\"START_TIMER\",\n\"label\":\"Timer\",\n\"target\":\"timer_1\",\n\"values\":{\"width\":{\"op\":\"INPUT\",\"value\":\"width\"},\"height\":{\"op\":\"INPUT\",\"value\":\"height\"}}\n}\n]\n}",
+      "generatedTokens": 199,
+      "promptTokens": 601
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "A timer action needs a timer control",
+      "receivedFailedFeature": 636,
+      "grammarEnabled": true,
+      "output": "{\"components\":[\"INPUT\",\"TEXT\",\"BUTTON\"],\"expressions\":[],\"actions\":[\"START_TIMER\"],\"records\":false,\"screens\":false}",
+      "generatedTokens": 26,
+      "promptTokens": 691
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "A timer action needs a timer control",
+      "receivedFailedFeature": 636,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\":\"Width\",\n\"fieldKind\":\"NUMBER\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\":\"Height\",\n\"fieldKind\":\"NUMBER\"\n},\n{\n\"id\": \"area\",\n\"kind\":\"TEXT\",\n\"label\":\"Area\",\n\"expression\": {\n\"op\":\"INPUT\",\n\"value\":\"width\"\n}\n},\n{\n\"id\": \"start_timer_1\",\n\"kind\":\"BUTTON\",\n\"label\":\"Start Timer\",\n\"actionId\":\"start_timer_1\"\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": [\n{\n\"id\":\"start_timer_1\",\n\"kind\":\"START_TIMER\",\n\"label\":\"Start Timer\",\n\"target\":\"timer_1\",\n\"values\": {\n\"width\": {\n\"op\":\"INPUT\",\n\"value\":\"width\"\n},\n\"height\": {\n\"op\":\"INPUT\",\n\"value\":\"height\"\n}\n}\n},\n{\n\"id\":\"timer_1\",\n\"kind\":\"START_TIMER\",\n\"label\":\"Timer\",\n\"target\":\"timer_1\",\n\"values\": {\n\"width\": {\n\"op\":\"INPUT\",\n\"value\":\"width\"\n},\n\"height\": {\n\"op\":\"INPUT\",\n\"value\":\"height\"\n}\n}\n}\n]\n}",
+      "generatedTokens": 250,
+      "promptTokens": 601
+    }
+  ]
+}

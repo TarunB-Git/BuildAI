@@ -1,0 +1,23 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "74b25e524354ead9a9777ecccea4dcb3911cbc9ca8edca73d59fa26bb61ce399",
+  "elapsedMsIncludingUiChecks": 283664,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "error": "Calculate area failed after 2 repairs: A feature attempted to overwrite existing IDs; use a scoped edit instead. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByAttempt": [
+    409,
+    306,
+    306
+  ],
+  "promptTokensByAttempt": [
+    670,
+    959,
+    887
+  ],
+  "physicalPhone": false
+}

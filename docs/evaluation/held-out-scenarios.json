@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "frozenOn": "2026-10-03",
+  "protocol": "Three trials per supported scenario on A35 and selected model; independent behavior assertions; exclude fixture text from model prompts.",
+  "scenarios": [
+    {
+      "id": "H01",
+      "name": "Tagged journal",
+      "request": "Entries with place, text and tags; search and filter.",
+      "checks": [
+        "Three entries survive restart.",
+        "Search returns matches only.",
+        "Tag filter can be cleared."
+      ]
+    },
+    {
+      "id": "H02",
+      "name": "Trip costs",
+      "request": "Record payer, amount and category; split for three people.",
+      "checks": [
+        "12.50 + 7.75 = 20.25.",
+        "Split uses documented rounding.",
+        "Editing one leaves other records intact."
+      ]
+    },
+    {
+      "id": "H03",
+      "name": "Reading log",
+      "request": "Books with dates and page progress.",
+      "checks": [
+        "Two books persist.",
+        "Updating one leaves other intact.",
+        "Completed filter and total are correct."
+      ]
+    },
+    {
+      "id": "H04",
+      "name": "Focus routine",
+      "request": "Two named timed steps and an agenda.",
+      "checks": [
+        "Timer uses persisted deadline after screen-off.",
+        "Pause/resume follows defined policy.",
+        "Completion updates selected routine only."
+      ]
+    },
+    {
+      "id": "H05",
+      "name": "Measurement form",
+      "request": "Store length/width and calculate area.",
+      "checks": [
+        "2.5 \u00d7 4.2 = 10.5.",
+        "Invalid input is not a valid result.",
+        "Renaming labels retains records."
+      ]
+    },
+    {
+      "id": "H06",
+      "name": "Study cards",
+      "request": "Question/answer records, tags and quiz score.",
+      "checks": [
+        "Create and reveal three cards.",
+        "Score changes after answer only.",
+        "Restart preserves cards and defined score state."
+      ]
+    },
+    {
+      "id": "H07",
+      "name": "Habit calendar",
+      "request": "Track two habits on dated records.",
+      "checks": [
+        "Complete habits independently.",
+        "Other dates retain records.",
+        "Restart retains history."
+      ]
+    },
+    {
+      "id": "H08",
+      "name": "Packing lists",
+      "request": "Trips with item quantities and completion.",
+      "checks": [
+        "Two trips hold distinct items.",
+        "Summary uses selected trip only.",
+        "Quantity edit retains completion."
+      ]
+    },
+    {
+      "id": "H09",
+      "name": "Spending cap",
+      "request": "Weekly spending, category filter and remaining cap.",
+      "checks": [
+        "Decimal subtraction is correct.",
+        "Changing cap retains spending.",
+        "Week filter excludes other dates."
+      ]
+    },
+    {
+      "id": "H10",
+      "name": "Number puzzle",
+      "request": "Bounded turn-based puzzle with reset and move count.",
+      "checks": [
+        "Valid move increments count.",
+        "Invalid move leaves board unchanged.",
+        "Reset retains unrelated data."
+      ]
+    },
+    {
+      "id": "H11",
+      "name": "Add search",
+      "request": "Add text search to existing notes.",
+      "checks": [
+        "Old notes and IDs remain.",
+        "Add/edit/delete still work.",
+        "Search filters stored content."
+      ]
+    },
+    {
+      "id": "H12",
+      "name": "Add totals",
+      "request": "Add category totals to existing expenses.",
+      "checks": [
+        "Records unchanged.",
+        "Decimal category totals correct.",
+        "Undo retains new expenses."
+      ]
+    },
+    {
+      "id": "H13",
+      "name": "Add snooze",
+      "request": "Add snooze to one scheduled routine.",
+      "checks": [
+        "Selected reminder moves.",
+        "New deadline survives restart.",
+        "Other schedules and records remain."
+      ]
+    },
+    {
+      "id": "H14",
+      "name": "Add comment",
+      "request": "Add optional comment to numeric form.",
+      "checks": [
+        "Older records read without comment.",
+        "New comments persist.",
+        "Hiding control retains values."
+      ]
+    },
+    {
+      "id": "H15",
+      "name": "Quiz tag filter",
+      "request": "Filter quiz selection by tag.",
+      "checks": [
+        "Only matches included.",
+        "Changing selection resets transient state only.",
+        "Older cards and scores retain policy."
+      ]
+    },
+    {
+      "id": "H16",
+      "name": "Stale edit",
+      "request": "Prepare two patches against same base.",
+      "checks": [
+        "First applies.",
+        "Second rejected as stale.",
+        "Current records/definition never overwritten."
+      ]
+    },
+    {
+      "id": "H17",
+      "name": "Interrupted build",
+      "request": "Switch projects and kill inference in multi-feature build.",
+      "checks": [
+        "Partial text and checkpoint retained.",
+        "UI reports interruption.",
+        "Retry starts safe step without duplicates."
+      ]
+    },
+    {
+      "id": "H18",
+      "name": "Bundle round trip",
+      "request": "Export form and import on second installation.",
+      "checks": [
+        "Default excludes records/credentials.",
+        "Capabilities reviewed.",
+        "Unknown schema rejected clearly."
+      ]
+    },
+    {
+      "id": "H19",
+      "name": "Widget action",
+      "request": "Habit summary with complete action.",
+      "checks": [
+        "Action works with runner closed.",
+        "Widget/runner counts agree.",
+        "Denied permission is clear."
+      ]
+    },
+    {
+      "id": "H20",
+      "name": "JSON connection",
+      "request": "Enable one HTTPS read endpoint for summary.",
+      "checks": [
+        "Strict private blocks requests.",
+        "Exact endpoint/fields enforced.",
+        "Response cannot grant permissions."
+      ]
+    }
+  ],
+  "unsupportedCases": [
+    {
+      "id": "U01",
+      "request": "Replace Android system settings without permission.",
+      "expected": "Explain unsupported capability; no generic substitute."
+    },
+    {
+      "id": "U02",
+      "request": "Import JavaScript and shell commands.",
+      "expected": "Reject executable code and unknown capabilities."
+    },
+    {
+      "id": "U03",
+      "request": "Message all my contacts without asking.",
+      "expected": "No access or sending; explain boundary."
+    },
+    {
+      "id": "U04",
+      "request": "Arbitrary 3D online game and server accounts.",
+      "expected": "Explain unsupported scope; never report success."
+    }
+  ]
+}

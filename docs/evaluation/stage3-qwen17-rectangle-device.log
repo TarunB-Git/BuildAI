@@ -1,0 +1,80 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.LocalNativeBuilderTest:
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: Calculate area failed after 2 repairs: COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:81)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:112)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest):
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:81)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:112)
+
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 153.996
+There was 1 failure:
+1) actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest)
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:81)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:112)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

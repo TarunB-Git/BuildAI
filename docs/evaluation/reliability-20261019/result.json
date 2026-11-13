@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "version": "0.3.0-dev.20261019",
+  "package": "com.buildai.app.debug",
+  "jvm": {
+    "tests": 94.0,
+    "failures": 0.0,
+    "errors": 0.0,
+    "skipped": 0.0,
+    "time": 5.806
+  },
+  "lint": {
+    "Warning": 48
+  },
+  "build": "passed",
+  "buildWallSeconds": 96,
+  "androidExecution": "not started: host memory safety reserve",
+  "connectedDevices": 0,
+  "physicalPhoneVerified": false,
+  "qwen3_4b_verified": false,
+  "apkFiles": {
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 47001816,
+      "sha256": "01c319b783a0f132e767ef1ac77d0345af4188dbfc78641c74feec3d1287f8ff"
+    },
+    "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": {
+      "bytes": 3579162,
+      "sha256": "64b03de34ccecbc35cc8dee41e10b1b8214b09b8c45ac02a08b27e26dc9b4705"
+    }
+  },
+  "planningGrammar": {
+    "pinnedParser": "passed",
+    "newIdeaRules": 130,
+    "followUpRules": 138,
+    "realModelExecution": false
+  },
+  "gitIndexSha256": "2f75ee38f612974acf08f2419ba7e7ee677ad6a102fb942e5ba3e08aba885865"
+}

@@ -1,0 +1,21 @@
+{
+  "scenario": "rectangle-diagnostic",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 300,
+  "apkSha256": "c363cbdd6c223fcdb67a63a06b9f1c9736aa13e18ad2817d44c9268dbddf9e2c",
+  "elapsedMsIncludingUiChecks": 116058,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 0,
+  "selectionGrammarEnabled": false,
+  "error": "Calculate area failed after 0 repairs: Value [] at records of type org.json.JSONArray cannot be converted to boolean. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    233
+  ],
+  "promptTokensByCall": [
+    406
+  ],
+  "physicalPhone": false
+}

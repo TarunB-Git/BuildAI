@@ -1,0 +1,219 @@
+[
+  {
+    "id": "01-apps-sea",
+    "title": "Apps · Sea blue",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Finished app library. Sand-colored surfaces #F8EFD9 and background #F2E9D6, translucent liquid-glass floating bottom navigation with sea-blue teal #096B87 accents, soft seafoam reflections and subtle glass highlight edges. Never pure-white panels. Header Apps with search and settings. A Pinned section contains Study notes (pin icon) and below it Trip budget and Daily routine. Each compact app row has material app icon, title, short purpose and overflow, with Open and Edit actions. No drafts; no manual/offline tools. Apps selected in bottom navigation.",
+    "path": "images/01-apps-sea.png"
+  },
+  {
+    "id": "02-apps-forest",
+    "title": "Apps · Forest green",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Finished app library. Rich deep forest accents #155E3C, light green background #DFEBD8, pale green surfaces #EEF6E7, foliage-green secondary colors, no pure-white panels. Header Apps with search/settings. Pinned Study notes first (pin icon), then Trip budget and Daily routine. Compact useful cards with material icons and Open/Edit. Apps selected in three-tab bottom nav.",
+    "path": "images/02-apps-forest.png"
+  },
+  {
+    "id": "03-apps-night",
+    "title": "Apps · Night gray",
+    "theme": "Night gray",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Finished app library, matte charcoal #14171C background, soft graphite #1C2027 panels, silver #C7D0DC accents. Pinned Study notes at top, then Trip budget and Daily routine. Compact readable cards with material icons and Open/Edit. Apps selected in three-tab bottom navigation.",
+    "path": "images/03-apps-night.png"
+  },
+  {
+    "id": "04-chat-keyboard",
+    "title": "Chat with keyboard",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. General chat conversation about a simple HTML page. Sand background and translucent sea-blue composer. Slim header Back, \"HTML basics\", tiny \"Local AI\" underneath title and Export icon. Assistant message has formatted bold heading \"A simple page\", one short explanatory sentence and an HTML code block in a muted sand/seafoam panel with \"html\" label and Copy code button. Visible source is <!DOCTYPE html>, <html>, <body>Hello</body>, </html>. A compact 56dp composer just above Android keyboard: microphone, single-line \"Make the heading blue\", Send. The keyboard occupies lower 35% screen. The conversation retains plenty of height. Tiny circular down-arrow at bottom-right of message area, no giant jump banner, no floating Local AI badge, no bottom app navigation in conversation. No raw markdown fences.",
+    "path": "images/04-chat-keyboard.png"
+  },
+  {
+    "id": "05-chat-list",
+    "title": "Chat",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Root Chat screen. Warm sand panels and teal sea glass. Header Chat with settings and history icons. New chat button. Search chats field. A compact list: HTML basics, Weekend plans, Study questions. Three bottom destinations Chat selected, Create, Apps. No app drafts here.",
+    "path": "images/05-chat-list.png"
+  },
+  {
+    "id": "06-create",
+    "title": "Create · drafts",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Root Create screen. Warm sand and teal liquid-glass accents. Header Create with settings icon. Prompt 'What would you like your app to do?' Compact idea composer 'An app that helps me…' and Start button. Drafts list Trip budget and Study notes, showing small draft status. A few subtle example prompts. Bottom Chat, Create selected, Apps. No manual tool option or offline starters visible.",
+    "path": "images/06-create.png"
+  },
+  {
+    "id": "07-requirements",
+    "title": "App requirements conversation",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested app conversation Trip budget. Back, title, overflow menu. Tiny Local AI status in header. User describes daily spending with a budget. Assistant asks one clear question. A requirements-ready inline card with title Trip budget, three concise features and Continue to design button. Compact single-row microphone/input/send at bottom. No workspace tabs or bottom navigation.",
+    "path": "images/07-requirements.png"
+  },
+  {
+    "id": "08-appearance",
+    "title": "Appearance",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Appearance editor inspired by the user's liked preview, but use deep green #155E3C and pale green surfaces #EEF6E7, background #DFEBD8. Back header Appearance. Large readable sample Study notes with note rows. Layout List / Cards / Tabs buttons. Color palette Ocean / Forest selected / Sunset / More. App icon row with green notes icon and Change. Navigation label fields Notes and Search. Save & build button. No redundant subtitles, no top workspace tabs.",
+    "path": "images/08-appearance.png"
+  },
+  {
+    "id": "09-cloud",
+    "title": "Cloud AI providers",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Settings Cloud AI screen, sand and translucent sea glass. Gemini accordion expanded initially with key field bullets, Model ID gemini-2.5-flash, optional Fallback model IDs and Save key & model and Use Gemini. Below: collapsed OpenRouter, OpenAI, Claude accordions. Only Gemini expanded. Generation fallback switch ON below provider rows. No giant explanatory cards or promises. All readable, omit bottom navigation.",
+    "path": "images/09-cloud.png"
+  },
+  {
+    "id": "10-local",
+    "title": "Local models",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Local AI settings. Deep/light greens, compact model-selection UI. Selected Qwen3 0.6B. Browse available models control is an expanded dropdown with Installed section containing Qwen3 0.6B (Source: Downloaded), my-model.gguf (Source: User) and Not installed containing Qwen3 4B and Gemma 4 E2B, each with small info icon. Under dropdown Import model file and Find models in a folder. Publisher source link on downloaded model. No nonsense connection subtitle. No bottom nav.",
+    "path": "images/10-local.png"
+  },
+  {
+    "id": "11-queue",
+    "title": "Editable queued requests",
+    "theme": "Night gray",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Dark charcoal nested HTML basics chat with compact code response. Queued requests bottom sheet. Two editable text fields: 'Make the heading blue' and 'Add a footer'. Each has Save, Send now & steer, Remove actions. Short note 'Send now interrupts the current reply.' Clear close button. Compact composer behind sheet and no giant Local AI badge. No workspace tabs.",
+    "path": "images/11-queue.png"
+  },
+  {
+    "id": "12-history",
+    "title": "Version history",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Deep and light green nested Trip budget workspace dimmed behind rounded Version history bottom sheet. No top tabs. Current revision Add expense category with green Current label and date. Older Improve total calculation and First usable version each with Inspect and Restore actions. Small note Current saved records are kept when restoring. Back/title/menu visible behind. No chat/plan/preview tabs or bottom navigation.",
+    "path": "images/12-history.png"
+  },
+  {
+    "id": "13-settings",
+    "title": "Settings",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Settings, warm sand and frosted sea-blue surfaces. Simple compact rows with Material icons: AI & privacy (Local AI), Theme (Sea blue), About BuildAI (Version 0.3.0), Advanced (Offline tools). Back header, no extra dividers or subtitles, no bottom tabs. Strong readable ink.",
+    "path": "images/13-settings.png"
+  },
+  {
+    "id": "14-activity",
+    "title": "Activity and recovery",
+    "theme": "Night gray",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Your work activity directory. Charcoal graphite silver. Compact ongoing Trip budget card 'Adding expenses' with progress and Stop. Study notes 'Change ready to review' with Review. Focus timer 'Needs attention' with Retry. Short plain stages. Back and settings. No bottom tabs.",
+    "path": "images/14-activity.png"
+  },
+  {
+    "id": "15-model-info",
+    "title": "Model information",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Deep green and pale green Local AI page behind model information dialog. Gemma 4 E2B. 'Text & code · 3.35 GB'. 'Image and audio input are not supported in BuildAI yet.' 'Suggested phone memory: 8 GB'. Actual source link google/gemma-4-E2B-it-qat-q4_0-gguf. Download and Close buttons. Clear small informational icon. No false multimodal support claim.",
+    "path": "images/15-model-info.png"
+  },
+  {
+    "id": "16-themes",
+    "title": "Theme selection",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Theme screen on sand-colored sea glass. Three large color sample rows labelled Sea blue, Forest green, Night gray. Sea has sand panel and teal, Forest pale and deep green, Night charcoal and silver. Sea selected with radio/check. Realistic live mini examples on each color swatch. Back header. No bottom tabs.",
+    "path": "images/16-themes.png"
+  },
+  {
+    "id": "17-native-plan",
+    "title": "Review requirements",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Trip budget requirements review. Deep/light green palette, no top tabs. Back header Trip budget. Editable app name, three compact feature cards Record expenses, Categories, Remaining budget with Edit icons and concise workflow sentences. Optional assumptions small inline. Choose appearance primary bottom button. No decorative checks pretending unbuilt features work. No giant subtitles.",
+    "path": "images/17-native-plan.png"
+  },
+  {
+    "id": "18-web-plan",
+    "title": "Web app requirements",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested editable app requirements page for Study notes. Warm sand/teal glass. Fields App name, What the app does, Features one per line, Screens one per line. Who it's for small disclosure. Continue to appearance primary bottom button. AI build default; no manual tools or offline starter choices shown. No tabs.",
+    "path": "images/18-web-plan.png"
+  },
+  {
+    "id": "19-native-preview",
+    "title": "Native app preview",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Study notes preview. Deep/light greens, header Back Study notes and overflow. Small Current app label and Open app action. Realistic note input, tag field, Keep note button, saved note card with edit and delete. No Chat/Plan/Preview top tabs. No chat composer under preview.",
+    "path": "images/19-native-preview.png"
+  },
+  {
+    "id": "20-runner",
+    "title": "Standalone app",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Standalone Study notes app, deep/light greens. Header close, Study notes, History action. Note and tag inputs, Keep note action, saved note Search field, two notes with Edit/Delete. All tappable and readable, no BuildAI workspace tabs or BuildAI chat composer or root navigation.",
+    "path": "images/20-runner.png"
+  },
+  {
+    "id": "21-web-preview",
+    "title": "HTML app preview",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Task checklist web app preview, sand and sea-blue accents. Back header Task list with overflow. Small Current web app label and Open app. Contained runnable app has New task input, Add, unchecked Buy groceries, checked Book train. Small file-sharing actions in overflow only. No workspace tabs or chat input.",
+    "path": "images/21-web-preview.png"
+  },
+  {
+    "id": "22-edit",
+    "title": "Request a change",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Trip budget edit chat workspace in warm sand and teal sea glass. Header Back Trip budget with overflow and tiny Local AI status. What would you like to change? Compact input 'Add a transport category'. Optional scope selector 'Whole app' disclosure. Primary Prepare change. Current app remains usable. No top phase tabs.",
+    "path": "images/22-edit.png"
+  },
+  {
+    "id": "23-review",
+    "title": "Review a proposed change",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested change review screen Trip budget. Warm sand and teal. Back header Review change. Clear 'Ready to review · not applied' status, concise Added transport category change summary. 'Preview with test data' button. Primary Apply change and secondary Discard proposal. A small 'Saved records are kept' note. No chat composer, no phase tabs.",
+    "path": "images/23-review.png"
+  },
+  {
+    "id": "24-build-error",
+    "title": "Build recovery",
+    "theme": "Night gray",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Trip budget build paused page, charcoal/graphite/silver. Header Back Trip budget and overflow. Concise 'Build needs attention'. 'The model stopped replying.' Last completed step 'Expense form saved'. Retry saved checkpoint primary button, Review requirements secondary, AI setup text link. Existing current app button if available. No tabs or raw stack traces.",
+    "path": "images/24-build-error.png"
+  },
+  {
+    "id": "25-advanced",
+    "title": "Advanced settings",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Advanced settings, warm sand/sea glass. Back header. Single row Show offline tools, switch OFF. Short supporting text 'Enable manual configuration and ready-made starters in Create.' Spacious readable minimal app interface, no useless cards, no bottom tabs.",
+    "path": "images/25-advanced.png"
+  },
+  {
+    "id": "26-model-catalogue",
+    "title": "Models · larger catalogue",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Models directory shown only when more than ten models. Deep and pale greens, back header Models, search. Installed section with several Qwen GGUF and User imported models, each Source: User or Downloaded, selected radio and Publisher source link for downloads. Not installed section with Qwen3 4B and Gemma 4 E2B, Download action and small info icon. No selected model accidentally deleted; no vision support claims.",
+    "path": "images/26-model-catalogue.png"
+  },
+  {
+    "id": "27-ai-privacy",
+    "title": "AI & privacy",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested AI & privacy settings, sand/sea glass. Back header. Simple row Local AI selected, short Runs on your phone, chevron. Cloud AI row Gemini, chevron. Useful small explanation 'Your saved apps work without AI.' No sentence about installing a model changing your connection. No root tabs.",
+    "path": "images/27-ai-privacy.png"
+  },
+  {
+    "id": "28-about",
+    "title": "About BuildAI",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested About BuildAI page, sand and teal sea glass. Back header. BuildAI, Version 0.3.0. One useful sentence 'Make and use personal tools.' Small concise paragraph 'Native apps keep records on this device.' No giant logos, no useless subtitles, no root tabs.",
+    "path": "images/28-about.png"
+  },
+  {
+    "id": "29-manual",
+    "title": "Offline tool configuration · enabled",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested offline tool configuration available only after advanced setting enabled. Deep/light green, Back header Configure offline tool. App name field, selected native capabilities Text, Saved records, Search. Short enabled capability chips with Material icons. Clear Build app button at bottom. No advertising manual building in normal Create or Chat screens. No phase tabs.",
+    "path": "images/29-manual.png"
+  },
+  {
+    "id": "30-starters",
+    "title": "Offline starter picker · enabled",
+    "theme": "Sea blue",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Warm sand and teal nested Create page behind rounded Offline starters sheet. Visible only after advanced setting enabled. Six simple rows Notes / journal, Task checklist, Habit tracker, Expense tracker, Calculator, Focus timer, each purpose-matching Material icon, short accurate functionality, chevron. Close action. No Build locally banner in normal chat.",
+    "path": "images/30-starters.png"
+  },
+  {
+    "id": "31-proposed-preview",
+    "title": "Preview proposed change",
+    "theme": "Forest green",
+    "prompt": "Generate a polished production mobile Android UI screen for BuildAI, edge-to-edge flat screenshot, no device frame, crisp readable typography at realistic mobile density, portrait 9:19.5. Original expert interaction design. Google Material outlined icons. Calm generous but efficient spacing, no decorative divider lines or redundant subtitles. Root bottom navigation has exactly three destinations Chat, Create, Apps with icons; root screens only. Nested screens use Back and no bottom navigation. Never show a workspace Chat / Plan / Preview tab strip. Every action is understandable. This is an aspirational screen concept. Nested Trip budget preview deep/light greens. Back header Test proposed change. Small test copy status 'Changes here are discarded'. Current / Proposed selector for comparing the app versions, not workspace phases. App expense form Amount and Category, new Transport category, Save expense button. Back to review action. No top Chat/Plan/Review tabs, no chat composer.",
+    "path": "images/31-proposed-preview.png"
+  }
+]

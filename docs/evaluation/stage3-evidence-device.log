@@ -1,0 +1,252 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeRelationshipTest:
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeBuilderTest:
+INSTRUMENTATION_STATUS: test=failedCapabilitySelectionIsProvidedToTheRepairAndOnlyTheCheckedFeaturePublishes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedCapabilitySelectionIsProvidedToTheRepairAndOnlyTheCheckedFeaturePublishes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=interactionProbesObserveAssignedValuesAndRejectUnknownStepInputs
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interactionProbesObserveAssignedValuesAndRejectUnknownStepInputs
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=negativeActionProbesRequireRealConditionRejectionAndThenExerciseSuccessfulSave
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=negativeActionProbesRequireRealConditionRejectionAndThenExerciseSuccessfulSave
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.CreatePlanningTest:
+INSTRUMENTATION_STATUS: test=planningCommitPreservesDraftAndQueueAndRejectsStaleOrStoppedWork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=planningCommitPreservesDraftAndQueueAndRejectsStaleOrStoppedWork
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativePlanEditingTest:
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.LocalNativeBuilderTest:
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=13
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Record actions need a saved collection; select records or remove unneeded record actions.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:118)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest):
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Record actions need a saved collection; select records or remove unneeded record actions.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:118)
+
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 118.158
+There was 1 failure:
+1) actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest)
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Record actions need a saved collection; select records or remove unneeded record actions.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:118)
+
+FAILURES!!!
+Tests run: 13,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

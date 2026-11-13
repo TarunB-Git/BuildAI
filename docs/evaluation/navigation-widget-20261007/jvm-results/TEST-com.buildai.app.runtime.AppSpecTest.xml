@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.runtime.AppSpecTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:13" hostname="Tar-IdeaPad-3-15ITL6" time="0.005">
+  <properties/>
+  <testcase name="independentExamplesHaveDistinctBehaviorAndRoundTrip" classname="com.buildai.app.runtime.AppSpecTest" time="0.003"/>
+  <testcase name="rejectsUnregisteredCodeAndBrokenBindings" classname="com.buildai.app.runtime.AppSpecTest" time="0.0"/>
+  <testcase name="decimalCalculationsReadCurrentInputsAndRejectZeroDivisors" classname="com.buildai.app.runtime.AppSpecTest" time="0.001"/>
+  <testcase name="oneFeaturePatchLeavesUnrelatedComponentsAndFieldsIntact" classname="com.buildai.app.runtime.AppSpecTest" time="0.001"/>
+  <testcase name="destructiveSchemaChangesAreRejectedBeforePublication" classname="com.buildai.app.runtime.AppSpecTest" time="0.0"/>
+  <testcase name="timerActionsCannotTargetMissingOrUnrelatedControls" classname="com.buildai.app.runtime.AppSpecTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

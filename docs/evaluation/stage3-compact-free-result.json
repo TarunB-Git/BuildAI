@@ -1,0 +1,27 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 600,
+  "apkSha256": "2adbf6fa13d555c8e9e650de2914ffd7fc4a0e4eaa1c3efcee7e3ebc7a0c16de",
+  "elapsedMsIncludingUiChecks": 55734,
+  "testApkSha256": "033d4f87684b2612e6e0beac9b1be54e6edbfdc47fe187f6a176c837599d8a99",
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "selectionGrammarEnabled": false,
+  "approvedCapabilities": null,
+  "error": "Calculate area failed after 2 repairs: Use each registered capability at most once. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    10,
+    5,
+    5
+  ],
+  "promptTokensByCall": [
+    325,
+    344,
+    338
+  ],
+  "physicalPhone": false
+}

@@ -1,0 +1,32 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"TEXT\", \"BUTTON\", \"TIMER\", \"INSERT\"]}",
+      "generatedTokens": 15,
+      "promptTokens": 383
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Record actions need a saved collection; select records or remove unneeded record actions.",
+      "receivedFailedFeature": 46,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"TEXT\", \"BUTTON\", \"TIMER\", \"INSERT\"]}",
+      "generatedTokens": 15,
+      "promptTokens": 413
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Record actions need a saved collection; select records or remove unneeded record actions.",
+      "receivedFailedFeature": 46,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"TEXT\", \"BUTTON\", \"TIMER\", \"INSERT\"]}",
+      "generatedTokens": 15,
+      "promptTokens": 413
+    }
+  ]
+}

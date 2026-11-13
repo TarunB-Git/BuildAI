@@ -1,0 +1,11 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "failureToRepair": "null",
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n ],\n\"screens\": [\n ],\n\"entities\": [\n ],\n\"actions\": [\n],\n\"checks\": [\n{\n\"name\": \"Width 2.5 and height 4 shows Area 10\",\n\"inputs\": {\n },\n\"steps\": [\n ],\n\"assertions\": [\n{\n\"component\": \"actual_summary_id\",\n\"equals\": \"10\"\n},\n{\n\"component\": \"actual_list_id\",\n\"count\": 1\n},\n{\n\"component\": \"actual_entity_id\",\n\"equals\": \"10\"\n}\n]\n},\n{\n\"name\": \"Width 7 and height 3 shows Area 21\",\n\"inputs\": {\n},\n\"steps\": [\n ],\n\"assertions\": [\n{\n\"component\": \"actual_summary_id\",\n\"equals\": \"21\"\n},\n{\n\"component\": \"actual_list_id\",\n\"count\": 1\n},\n{\n\"component\": \"actual_entity_id\",\n\"equals\": \"21\"\n}\n]\n}\n]\n}",
+      "generatedTokens": 212,
+      "promptTokens": 920
+    }
+  ]
+}

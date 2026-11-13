@@ -1,0 +1,9 @@
+{
+  "tests": 63,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "time": 5.693,
+  "gradle_reported_seconds": 30,
+  "apk": "Not assembled: JVM gate failed"
+}

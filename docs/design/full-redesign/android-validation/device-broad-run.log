@@ -1,0 +1,666 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.WorkflowTest:
+INSTRUMENTATION_STATUS: test=buildContinuesAfterReturningHome
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=buildContinuesAfterReturningHome
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=draftRemainsEditableWhileReplyRuns
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=draftRemainsEditableWhileReplyRuns
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=separateProjectsCanRunAtTheSameTime
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=separateProjectsCanRunAtTheSameTime
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedPlanningRequestSurvivesRestartAndRetries
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedPlanningRequestSurvivesRestartAndRetries
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=requirementsAppearanceGenerationInteractionsExportAndColdReopen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=requirementsAppearanceGenerationInteractionsExportAndColdReopen
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cancelledGenerationCanRetryWithoutSavingIncompleteOutput
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkflowTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cancelledGenerationCanRetryWithoutSavingIncompleteOutput
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.AppEditingTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.AppEditingTest:
+INSTRUMENTATION_STATUS: test=builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.AppEditingTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but found '3' nodes that satisfy: (Text + EditableText contains 'Open app' (ignoreCase: false))
+Nodes found:
+1) Node #3120 at (l=47.0, t=567.0, r=263.0, b=630.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+2) Node #3146 at (l=47.0, t=815.0, r=263.0, b=878.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+3) Node #3172 at (l=47.0, t=1063.0, r=263.0, b=1126.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:394)
+	at androidx.compose.ui.test.Actions_androidKt.performClickImpl(Actions.android.kt:20)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:54)
+	at com.buildai.app.AppEditingTest.builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput(AppEditingTest.kt:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput(com.buildai.app.AppEditingTest):
+java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but found '3' nodes that satisfy: (Text + EditableText contains 'Open app' (ignoreCase: false))
+Nodes found:
+1) Node #3120 at (l=47.0, t=567.0, r=263.0, b=630.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+2) Node #3146 at (l=47.0, t=815.0, r=263.0, b=878.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+3) Node #3172 at (l=47.0, t=1063.0, r=263.0, b=1126.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:394)
+	at androidx.compose.ui.test.Actions_androidKt.performClickImpl(Actions.android.kt:20)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:54)
+	at com.buildai.app.AppEditingTest.builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput(AppEditingTest.kt:47)
+
+INSTRUMENTATION_STATUS: test=builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.MobileRedesignTest:
+INSTRUMENTATION_STATUS: test=workspaceAndSettingsRemainReachableAtDoubleFontScale
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=workspaceAndSettingsRemainReachableAtDoubleFontScale
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=settingsProviderChoiceIsExplicitAndUnsavedKeyCanBeDiscarded
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=settingsProviderChoiceIsExplicitAndUnsavedKeyCanBeDiscarded
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=manualAndOfflineStarterHaveDirectWorkingEntryPoints
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Action performScrollTo() failed.
+The node is no longer in the tree, last known semantics:
+Node #4725 at (l=21.0, t=379.0, r=97.0, b=432.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Text]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 5 siblings
+Original selector: Text + EditableText contains 'Text' (ignoreCase: false)
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:165)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.manualAndOfflineStarterHaveDirectWorkingEntryPoints(MobileRedesignTest.kt:212)
+
+INSTRUMENTATION_STATUS: stream=
+Error in manualAndOfflineStarterHaveDirectWorkingEntryPoints(com.buildai.app.MobileRedesignTest):
+java.lang.AssertionError: Action performScrollTo() failed.
+The node is no longer in the tree, last known semantics:
+Node #4725 at (l=21.0, t=379.0, r=97.0, b=432.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Text]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 5 siblings
+Original selector: Text + EditableText contains 'Text' (ignoreCase: false)
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:165)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.manualAndOfflineStarterHaveDirectWorkingEntryPoints(MobileRedesignTest.kt:212)
+
+INSTRUMENTATION_STATUS: test=manualAndOfflineStarterHaveDirectWorkingEntryPoints
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=everyThemePersistsAndCoversLibraryWorkspaceAndNativeRunner
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=everyThemePersistsAndCoversLibraryWorkspaceAndNativeRunner
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=appearanceDraftIsExplicitAndResetDoesNotApplyItself
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=appearanceDraftIsExplicitAndResetDoesNotApplyItself
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Keep note' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision(MobileRedesignTest.kt:158)
+
+INSTRUMENTATION_STATUS: stream=
+Error in proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision(com.buildai.app.MobileRedesignTest):
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Keep note' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision(MobileRedesignTest.kt:158)
+
+INSTRUMENTATION_STATUS: test=proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=incompleteLegacyPlanAndSelectedTabSurviveRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=incompleteLegacyPlanAndSelectedTabSurviveRecreation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.MobileRedesignTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: The expected app window did not gain focus: MainActivity
+	at com.buildai.app.UiTestWindows.awaitFocus(UiTestWindows.kt:27)
+	at com.buildai.app.MobileRedesignTest.waitText(MobileRedesignTest.kt:33)
+	at com.buildai.app.MobileRedesignTest.waitText$default(MobileRedesignTest.kt:31)
+	at com.buildai.app.MobileRedesignTest.deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt(MobileRedesignTest.kt:110)
+
+INSTRUMENTATION_STATUS: stream=
+Error in deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt(com.buildai.app.MobileRedesignTest):
+java.lang.IllegalStateException: The expected app window did not gain focus: MainActivity
+	at com.buildai.app.UiTestWindows.awaitFocus(UiTestWindows.kt:27)
+	at com.buildai.app.MobileRedesignTest.waitText(MobileRedesignTest.kt:33)
+	at com.buildai.app.MobileRedesignTest.waitText$default(MobileRedesignTest.kt:31)
+	at com.buildai.app.MobileRedesignTest.deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt(MobileRedesignTest.kt:110)
+
+INSTRUMENTATION_STATUS: test=deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkspaceUiTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.WorkspaceUiTest:
+INSTRUMENTATION_STATUS: test=librarySearchDraftNavigationAndComposerPreserveWork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkspaceUiTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=librarySearchDraftNavigationAndComposerPreserveWork
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkspaceUiTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=readablePlanEditorsAndBuildRemainReachableWithLargeText
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.WorkspaceUiTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=readablePlanEditorsAndBuildRemainReachableWithLargeText
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativePlanEditingTest:
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeRuntimeTest:
+INSTRUMENTATION_STATUS: test=notesSearchTagsQuizAndColdReopenUseTheSameRuntime
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=notesSearchTagsQuizAndColdReopenUseTheSameRuntime
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=budgetInputsChangeStoredTotalsAndAppReopensWithoutAi
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=budgetInputsChangeStoredTotalsAndAppReopensWithoutAi
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=scopedEditsRejectStalePatchesAndUndoKeepsTodaysRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=scopedEditsRejectStalePatchesAndUndoKeepsTodaysRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=routineCompletionAndTimerDeadlineSurviveClosingTheRunner
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRuntimeTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=routineCompletionAndTimerDeadlineSurviveClosingTheRunner
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.GuidedRuntimeTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.GuidedRuntimeTest:
+INSTRUMENTATION_STATUS: test=composedPrivateToolSavesUncheckedBooleanAndCommaDecimalsWithLiveCalculation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.GuidedRuntimeTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=composedPrivateToolSavesUncheckedBooleanAndCommaDecimalsWithLiveCalculation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.ProjectRecoveryTest:
+INSTRUMENTATION_STATUS: test=sameNameProjectsDoNotOverwriteEachOtherAndDeleteRemovesOnlyOwnOutput
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=sameNameProjectsDoNotOverwriteEachOtherAndDeleteRemovesOnlyOwnOutput
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedRequestAndProjectIdRecoverFromSavedState
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedRequestAndProjectIdRecoverFromSavedState
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=projectStorageIsIsolatedEvenWhenGeneratedAppsUseTheSameKey
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=projectStorageIsIsolatedEvenWhenGeneratedAppsUseTheSameKey
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=runtimeCheckAcceptsWorkingAppAndRejectsJavaScriptSyntaxError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=runtimeCheckAcceptsWorkingAppAndRejectsJavaScriptSyntaxError
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=readsLegacyProjectWithoutNewFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=readsLegacyProjectWithoutNewFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=persistsDesignAndDoesNotLoseItWhenChatUpdates
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=persistsDesignAndDoesNotLoseItWhenChatUpdates
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeRelationshipTest:
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=32
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 202.031
+There were 4 failures:
+1) builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput(com.buildai.app.AppEditingTest)
+java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but found '3' nodes that satisfy: (Text + EditableText contains 'Open app' (ignoreCase: false))
+Nodes found:
+1) Node #3120 at (l=47.0, t=567.0, r=263.0, b=630.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+2) Node #3146 at (l=47.0, t=815.0, r=263.0, b=878.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+3) Node #3172 at (l=47.0, t=1063.0, r=263.0, b=1126.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Open app]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 2 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:394)
+	at androidx.compose.ui.test.Actions_androidKt.performClickImpl(Actions.android.kt:20)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:54)
+	at com.buildai.app.AppEditingTest.builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput(AppEditingTest.kt:47)
+2) manualAndOfflineStarterHaveDirectWorkingEntryPoints(com.buildai.app.MobileRedesignTest)
+java.lang.AssertionError: Action performScrollTo() failed.
+The node is no longer in the tree, last known semantics:
+Node #4725 at (l=21.0, t=379.0, r=97.0, b=432.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Text]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 5 siblings
+Original selector: Text + EditableText contains 'Text' (ignoreCase: false)
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:165)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.manualAndOfflineStarterHaveDirectWorkingEntryPoints(MobileRedesignTest.kt:212)
+3) proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision(com.buildai.app.MobileRedesignTest)
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Keep note' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.buildai.app.MobileRedesignTest.proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision(MobileRedesignTest.kt:158)
+4) deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt(com.buildai.app.MobileRedesignTest)
+java.lang.IllegalStateException: The expected app window did not gain focus: MainActivity
+	at com.buildai.app.UiTestWindows.awaitFocus(UiTestWindows.kt:27)
+	at com.buildai.app.MobileRedesignTest.waitText(MobileRedesignTest.kt:33)
+	at com.buildai.app.MobileRedesignTest.waitText$default(MobileRedesignTest.kt:31)
+	at com.buildai.app.MobileRedesignTest.deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt(MobileRedesignTest.kt:110)
+
+FAILURES!!!
+Tests run: 32,  Failures: 4
+
+
+INSTRUMENTATION_CODE: -1

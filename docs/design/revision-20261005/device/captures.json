@@ -1,0 +1,47 @@
+[
+  [
+    "revision-chat-keyboard.png",
+    "Chat \u00b7 keyboard visible",
+    "Sea blue: a compact input, connection in the header and exact HTML copying. Android\u2019s clipboard overlay is visible after the copy check."
+  ],
+  [
+    "revision-create-drafts.png",
+    "Create \u00b7 app drafts",
+    "Unfinished app conversations are separate from finished apps. Offline tools are hidden by default."
+  ],
+  [
+    "revision-pinned-apps.png",
+    "Apps \u00b7 pinned first",
+    "Finished apps and persistent pinning. Existing emulator test examples remain in the list."
+  ],
+  [
+    "revision-cloud-providers.png",
+    "Cloud providers",
+    "OpenAI expanded, other providers closed; fallback switched off for the toggle test."
+  ],
+  [
+    "workflow-ui-sea_blue-preview.png",
+    "Native app preview \u00b7 Sea blue",
+    "The runnable preview uses the real generated app definition."
+  ],
+  [
+    "workflow-ui-forest_green-runner.png",
+    "Standalone app \u00b7 Forest green",
+    "A generated native notes app, opened separately from the builder."
+  ],
+  [
+    "workflow-ui-night_gray-runner.png",
+    "Standalone app \u00b7 Night gray",
+    "The same generated app using the night palette."
+  ],
+  [
+    "workflow-ui-night-gray-double-text.png",
+    "Preview \u00b7 2\u00d7 text size",
+    "Large text retains scrolling and access to the app controls."
+  ],
+  [
+    "workflow-ui-night_gray-themes.png",
+    "Theme selection \u00b7 Night gray",
+    "All three themes are available, with the current choice indicated."
+  ]
+]

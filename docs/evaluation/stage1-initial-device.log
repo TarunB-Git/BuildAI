@@ -1,0 +1,267 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.DurableInteractionTest:
+INSTRUMENTATION_STATUS: test=interruptedPartialReplyIsRetainedAndRetryable
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interruptedPartialReplyIsRetainedAndRetryable
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=legacyImportKeepsOriginalAndDoesNotOverwriteNewerDatabaseState
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=legacyImportKeepsOriginalAndDoesNotOverwriteNewerDatabaseState
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=replyAndDraftSurviveBackAndViewModelDestruction
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=replyAndDraftSurviveBackAndViewModelDestruction
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=newInputQueuesWithoutChangingTheActiveRequest
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.DurableInteractionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<2> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.DurableInteractionTest$newInputQueuesWithoutChangingTheActiveRequest$1.invokeSuspend(DurableInteractionTest.kt:90)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.DurableInteractionTest.newInputQueuesWithoutChangingTheActiveRequest(DurableInteractionTest.kt:68)
+
+INSTRUMENTATION_STATUS: stream=
+Error in newInputQueuesWithoutChangingTheActiveRequest(com.buildai.app.DurableInteractionTest):
+java.lang.AssertionError: expected:<2> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.DurableInteractionTest$newInputQueuesWithoutChangingTheActiveRequest$1.invokeSuspend(DurableInteractionTest.kt:90)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.DurableInteractionTest.newInputQueuesWithoutChangingTheActiveRequest(DurableInteractionTest.kt:68)
+
+INSTRUMENTATION_STATUS: test=newInputQueuesWithoutChangingTheActiveRequest
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.ProjectRecoveryTest:
+INSTRUMENTATION_STATUS: test=sameNameProjectsDoNotOverwriteEachOtherAndDeleteRemovesOnlyOwnOutput
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=sameNameProjectsDoNotOverwriteEachOtherAndDeleteRemovesOnlyOwnOutput
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedRequestAndProjectIdRecoverFromSavedState
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedRequestAndProjectIdRecoverFromSavedState
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=projectStorageIsIsolatedEvenWhenGeneratedAppsUseTheSameKey
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=projectStorageIsIsolatedEvenWhenGeneratedAppsUseTheSameKey
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=runtimeCheckAcceptsWorkingAppAndRejectsJavaScriptSyntaxError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=runtimeCheckAcceptsWorkingAppAndRejectsJavaScriptSyntaxError
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=readsLegacyProjectWithoutNewFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=readsLegacyProjectWithoutNewFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=persistsDesignAndDoesNotLoseItWhenChatUpdates
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.ProjectRecoveryTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=persistsDesignAndDoesNotLoseItWhenChatUpdates
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.LocalInferenceTest:
+INSTRUMENTATION_STATUS: test=stoppingDuringPromptProcessingAllowsTheNextReply
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=stoppingDuringPromptProcessingAllowsTheNextReply
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualPlanningPromptThenLongHistoryCanReplyWithoutReloading
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualPlanningPromptThenLongHistoryCanReplyWithoutReloading
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=ggufModelStreamsACompleteShortReplyOnDevice
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=ggufModelStreamsACompleteShortReplyOnDevice
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=malformedModelReportsAnErrorWithoutCrashing
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalInferenceTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=malformedModelReportsAnErrorWithoutCrashing
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 55.526
+There was 1 failure:
+1) newInputQueuesWithoutChangingTheActiveRequest(com.buildai.app.DurableInteractionTest)
+java.lang.AssertionError: expected:<2> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.DurableInteractionTest$newInputQueuesWithoutChangingTheActiveRequest$1.invokeSuspend(DurableInteractionTest.kt:90)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.DurableInteractionTest.newInputQueuesWithoutChangingTheActiveRequest(DurableInteractionTest.kt:68)
+
+FAILURES!!!
+Tests run: 14,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

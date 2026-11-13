@@ -1,0 +1,32 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"MULTIPLY\", \"DIVIDE\", \"ADD\", \"SUBTRACT\", \"CONCAT\", \"EQ\", \"GT\", \"CONTAINS\", \"AND\", \"IF\", \"DATE_ADD\", \"DATE_DIFF\", \"BEFORE\", \"AFTER\", \"COUNT\", \"SUM\", \"INSERT\", \"UPDATE\", \"DELETE\", \"NAVIGATE\", \"ASSIGN\", \"START_TIMER\", \"STOP_TIMER\", \"NEW_DATA\", \"NEW_SCREEN\"]}",
+      "generatedTokens": 97,
+      "promptTokens": 419
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Select at least one supported visible capability",
+      "receivedFailedFeature": 264,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"INSERT\", \"UPDATE\", \"DELETE\", \"NAVIGATE\", \"ASSIGN\", \"START_TIMER\", \"STOP_TIMER\", \"NEW_DATA\", \"NEW_SCREEN\"]}",
+      "generatedTokens": 37,
+      "promptTokens": 521
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Select at least one supported visible capability",
+      "receivedFailedFeature": 116,
+      "grammarEnabled": true,
+      "output": "{\"use\": [\"INSERT\", \"NAVIGATE\", \"ASSIGN\", \"UPDATE\", \"DELETE\"]}",
+      "generatedTokens": 21,
+      "promptTokens": 463
+    }
+  ]
+}

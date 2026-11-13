@@ -1,0 +1,29 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}\n],\n\"screens\": [\n{\"id\": \"home\", \"title\": \"Calculator\", \"components\": [{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"}, {\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}]}\n],\n\"entities\": [\n{\"id\": \"Rectangle\", \"fields\": [{\"id\": \"name\", \"label\": \"Rectangle area\", \"kind\": \"TEXT\", \"required\": true}, {\"id\": \"type\", \"label\": \"Rectangle\", \"kind\": \"TEXT\", \"required\": true}, {\"id\": \"width\", \"label\": \"Width\", \"kind\": \"NUMBER\", \"required\": true}, {\"id\": \"height\", \"label\": \"Height\", \"kind\": \"NUMBER\", \"required\": true}]\n}\n,\n{\n\"id\": \"Rectangle\",\n\"fields\": [\n{\"id\": \"name\", \"label\": \"Rectangle area\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"type\", \"label\": \"Rectangle\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"width\", \"label\": \"Width\", \"kind\": \"NUMBER\", \"required\": true},\n{\"id\": \"height\", \"label\": \"Height\", \"kind\": \"NUMBER\", \"required\": true}\n]\n}\n],\n\"actions\": [\n{\"id\": \"calculateArea\", \"kind\": \"STOP_TIMER\", \"label\": \"Calculate area\", \"target\": \"Rectangle\", \"values\": {\"op\": {\"op\": \"SUM\", \"value\": \"width * height\"}}}\n]\n}",
+      "generatedTokens": 409,
+      "promptTokens": 670
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "A feature attempted to overwrite existing IDs; use a scoped edit instead",
+      "receivedFailedFeature": 1138,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}\n],\n\"screens\": [\n{\"id\": \"home\", \"title\": \"Calculator\", \"components\": [\n{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}\n]}\n],\n\"entities\": [\n{\"id\": \"Rectangle\", \"fields\": [\n{\"id\": \"name\", \"label\": \"Rectangle area\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"type\", \"label\": \"Rectangle\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"width\", \"label\": \"Width\", \"kind\": \"NUMBER\", \"required\": true},\n{\"id\": \"height\", \"label\": \"Height\", \"kind\": \"NUMBER\", \"required\": true}\n]}\n],\n\"actions\": [\n{\"id\": \"calculateArea\", \"kind\": \"STOP_TIMER\", \"label\": \"Calculate area\", \"target\": \"Rectangle\", \"values\": {\n\"op\": {\n\"op\": \"SUM\",\n\"value\": \"width * height\"\n}\n}\n}\n]\n}",
+      "generatedTokens": 306,
+      "promptTokens": 959
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "A feature attempted to overwrite existing IDs; use a scoped edit instead",
+      "receivedFailedFeature": 847,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}\n],\n\"screens\": [\n{\"id\": \"home\", \"title\": \"Calculator\", \"components\": [\n{\"id\": \"widthInput\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"heightInput\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"}\n]}\n],\n\"entities\": [\n{\"id\": \"Rectangle\", \"fields\": [\n{\"id\": \"name\", \"label\": \"Rectangle area\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"type\", \"label\": \"Rectangle\", \"kind\": \"TEXT\", \"required\": true},\n{\"id\": \"width\", \"label\": \"Width\", \"kind\": \"NUMBER\", \"required\": true},\n{\"id\": \"height\", \"label\": \"Height\", \"kind\": \"NUMBER\", \"required\": true}\n]}\n],\n\"actions\": [\n{\"id\": \"calculateArea\", \"kind\": \"STOP_TIMER\", \"label\": \"Calculate area\", \"target\": \"Rectangle\", \"values\": {\n\"op\": {\n\"op\": \"SUM\",\n\"value\": \"width * height\"\n}\n}\n}\n]\n}",
+      "generatedTokens": 306,
+      "promptTokens": 887
+    }
+  ]
+}

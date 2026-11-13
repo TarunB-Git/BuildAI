@@ -1,0 +1,29 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"components\": [\"INPUT\", \"TEXT\", \"BUTTON\"],\n\"expressions\": [\"INPUT\", \"NUMBER\", \"TEXT\", \"BOOLEAN\", \"COUNT\", \"SUM\", \"NOW\", \"TODAY\", \"ADD\", \"SUBTRACT\", \"MULTIPLY\", \"DIVIDE\"], \"actions\": [\"START_TIMER\", \"STOP_TIMER\"],\n\"records\": false,\n\"screens\": true\n}",
+      "generatedTokens": 81,
+      "promptTokens": 406
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"components\": [\n\"INPUT\",\n\"TEXT\",\n\"BUTTON\",\n\"RECORD_LIST\",\n\"TIMER\",\n\"QUIZ\"\n],\n\"expressions\": [\n\"INPUT\",\n\"NUMBER\",\n\"TEXT\",\n\"BOOLEAN\",\n\"COUNT\",\n\"SUM\",\n\"NOW\",\n\"TODAY\",\n\"ADD\",\n\"SUBTRACT\",\n\"MULTIPLY\",\n\"DIVIDE\"\n],\n\"actions\": [\n\"INSERT\",\n\"UPDATE\",\n\"DELETE\",\n\"NAVIGATE\",\n\"ASSIGN\"\n]\n,\n\"records\": false,\n\"screens\": true\n}",
+      "generatedTokens": 109,
+      "promptTokens": 418
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"components\": [\"INPUT\", \"TEXT\", \"BUTTON\", \"RECORD_LIST\", \"TIMER\", \"QUIZ\"],\n\"expressions\": [\"INPUT\", \"NUMBER\", \"TEXT\", \"BOOLEAN\", \"COUNT\", \"SUM\", \"NOW\", \"TODAY\", \"ADD\", \"SUBTRACT\", \"MULTIPLY\", \"DIVIDE\"], \"actions\": [\"START_TIMER\", \"STOP_TIMER\"],\n\"records\": false,\n\"screens\": true\n}",
+      "generatedTokens": 93,
+      "promptTokens": 418
+    }
+  ]
+}

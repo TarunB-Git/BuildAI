@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{background:#0D1117;color:white;font:18px sans-serif;padding:20px}input,button{font:inherit;padding:12px;margin:5px}li{padding:8px}</style></head><body>
+<h1>Notes</h1><nav><button id="home" onclick="show('notes')">Home</button><button id="history" onclick="show('history-view')">History</button></nav>
+<section id="notes"><input id="name" aria-label="Note" placeholder="Your note"><button id="add" onclick="add()">Add</button><p id="error"></p><ul id="items"></ul></section><section id="history-view" hidden><h2>Saved notes</h2><p id="count"></p></section>
+<script>
+let notes=JSON.parse(localStorage.getItem('notes')||'[]');
+function save(){localStorage.setItem('notes',JSON.stringify(notes));render()}
+function add(){const value=document.getElementById('name').value.trim();if(!value){document.getElementById('error').textContent='Enter a note';return}notes.push(value);document.getElementById('name').value='';document.getElementById('error').textContent='';save()}
+function render(){const list=document.getElementById('items');list.replaceChildren();if(!notes.length){list.textContent='No notes yet'}notes.forEach((note,i)=>{const li=document.createElement('li');const text=document.createElement('span');text.id='note-'+i;text.textContent=note;li.append(text);const edit=document.createElement('button');edit.id='edit-'+i;edit.textContent='Edit';edit.onclick=()=>{const next=prompt('Edit note',note);if(next&&next.trim()){notes[i]=next.trim();save()}};const del=document.createElement('button');del.id='delete-'+i;del.textContent='Delete';del.onclick=()=>{if(confirm('Delete note?')){notes.splice(i,1);save()}};li.append(edit,del);list.append(li)});document.getElementById('count').textContent=notes.length+' notes'}
+function show(id){document.getElementById('notes').hidden=id!=='notes';document.getElementById('history-view').hidden=id!=='history-view'}
+render();
+</script></body></html>

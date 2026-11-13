@@ -1,0 +1,45 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"components\": [\"INPUT\", \"SUMMARY\", \"TEXT\", \"BUTTON\", \"RECORD_LIST\", \"TIMER\", \"QUIZ\"],\n\"expressions\": [\"INPUT\", \"NUMBER\", \"TEXT\", \"BOOLEAN\", \"COUNT\", \"SUM\", \"NOW\", \"DATE_ADD\", \"DATE_DIFF\", \"CONCAT\", \"EQ\", \"GT\"],\n\"actions\": [\"NAVIGATE\", \"ASSIGN\", \"START_TIMER\", \"STOP_TIMER\"],\n\"records\": true,\n\"screens\": true\n}",
+      "generatedTokens": 103,
+      "promptTokens": 406
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\"id\": \"INPUT\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\", \"referenceEntity\": \"Rectangle area\"},\n{\"id\": \"SUMMARY\", \"kind\":\"SUMMARY\", \"label\": \"Area\", \"expression\": {\"op\": \"SUM\", \"value\": \"INPUT.value * INPUT.value\"}}\n],\n\"screens\": [\n{\"id\": \"home\", \"title\": \"Calculator\", \"components\": [{\"id\": \"INPUT\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\", \"referenceEntity\": \"Rectangle area\"}]}\n],\n\"entities\": [\n{\"id\": \"Rectangle area\", \"fields\": [{\"id\": \"name\", \"label\": \"Rectangle area\", \"kind\": \"TEXT\", \"required\": true}]}\n],\n\"actions\": [\n{\"id\": \"NAVIGATE\", \"kind\": \"NAVIGATE\", \"label\": \"Enter width and height\", \"target\": \"home\", \"values\": {}},\n{\"id\": \"ASSIGN\", \"kind\": \"ASSIGN\", \"label\": \"Assign input values\", \"target\": \"home\", \"values\": {\"INPUT.value\": {\"op\": \"SUM\", \"value\": \"INPUT.value * INPUT.value\"}}\n},\n{\"id\": \"START_TIMER\", \"kind\": \"START_TIMER\", \"label\": \"Start time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"DATE_DIFF\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"DATE_DIFF\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"DATE_DIFF\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"NOW\", \"value\": \"NOW\"}] }] } ]}},\n\"recordId\": {\"op\": \"COUNT\", \"value\": \"Rectangle area\"},\n\"duration\": {\"op\": \"NOW\", \"value\": \"NOW\"},\n\"condition\": {\"op\": \"EQ\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"NOW\", \"value\": \"NOW\"}]}\n} ,{\"id\": \"TIMER\", \"kind\": \"START_TIMER\", \"label\": \"Start time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"DATE_DIFF\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"DATE_DIFF\", \"args\": [{\"op\": \"NOW\", \"value\": \"NOW\"} , {\"op\": \"NOW\", \"value\": \"NOW\"}] }] } } } ,{\"id\": \"STOP_TIMER\", \"kind\": \"STOP_TIMER\", \"label\": \"Stop time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"NOW\", \"value\": \"NOW\"} , \"duration\": {\"op\": \"NOW\", \"value\": \"NOW\"} } } ,{\"id\": \"QUIZ\", \"kind\": \"START_TIMER\", \"label\": \"Start time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"NOW\", \"value\": \"NOW\"} , \"duration\": {\"op\": \"NOW\", \"value\": \"NOW\"} } } ,{\"id\": \"QUIZ\", \"kind\": \"START_TIMER\", \"label\": \"Start time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"NOW\", \"value\": \"NOW\"} , \"duration\": {\"op\": \"NOW\", \"value\": \"NOW\"} } } ,{\"id\": \"QUIZ\", \"kind\": \"START_TIMER\", \"label\": \"Start time\", \"target\": \"TIMER\", \"values\": {\"expression\": {\"op\": \"NOW\", \"value\": \"NOW\"} , \"duration\": {\"op\": \"NOW\", \"value\": \"NOW\"} } } ] }",
+      "generatedTokens": 819,
+      "promptTokens": 687
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "A feature attempted to overwrite existing IDs; use a scoped edit instead",
+      "receivedFailedFeature": 2148,
+      "output": "{\n\"components\": [\"INPUT\", \"SUMMARY\", \"TEXT\", \"BUTTON\", \"RECORD_LIST\", \"TIMER\"],\n\"expressions\": [\"INPUT\", \"NUMBER\", \"TEXT\", \"BOOLEAN\", \"COUNT\", \"SUM\", \"NOW\", \"ADD\", \"SUBTRACT\", \"MULTIPLY\", \"DIVIDE\", \"CONCAT\"],\n\"actions\": [\"INSERT\", \"UPDATE\", \"DELETE\", \"NAVIGATE\", \"ASSIGN\", \"START_TIMER\", \"STOP_TIMER\"],\n\"records\": false,\n\"screens\": false\n}",
+      "generatedTokens": 110,
+      "promptTokens": 970
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"components\": [\n\"INPUT\",\n\"SUMMARY\",\n\"TEXT\",\n\"BUTTON\",\n\"RECORD_LIST\",\n\"TIMER\",\n\"QUIZ\"\n],\n\"expressions\": [\n\"INPUT\",\n\"NUMBER\",\n\"TEXT\",\n\"BOOLEAN\",\n\"COUNT\",\n\"SUM\",\n\"NOW\",\n\"TODAY\",\n\"ADD\",\n\"SUBTRACT\",\n\"MULTIPLY\",\n\"DIVIDE\"\n],\n\"actions\": [\n\"INSERT\",\n\"UPDATE\",\n\"DELETE\",\n\"NAVIGATE\",\n\"ASSIGN\"\n],\n\"records\": true,\n\"screens\": true\n}",
+      "generatedTokens": 113,
+      "promptTokens": 418
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "COUNT and SUM read saved collections. For numeric inputs, select arithmetic operations instead.",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\"id\": \"INPUT\", \"kind\":\"INPUT\", \"label\": \"Width\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"INPUT\", \"kind\":\"INPUT\", \"label\": \"Height\", \"fieldKind\": \"NUMBER\"},\n{\"id\": \"SUMMARY\", \"kind\":\"SUMMARY\", \"label\": \"Area\", \"expression\": {\"op\": \"SUM\", \"value\": \"Width * Height\"}},\n{\"id\": \"BUTTON\", \"kind\":\"BUTTON\", \"label\": \"Calculate Area\", \"actionId\": \"SUMMARY\"},\n{\"id\": \"RECORD_LIST\", \"kind\":\"RECORD_LIST\", \"label\": \"Enter Data\", \"entityId\": \"area\", \"rowActions\": [\n ],\"expression\": {\"op\": \"INPUT\", \"value\": \"the actual input ID\"},\n\"filter\": {\"op\": \"COUNT\", \"value\": \"Rectangle area\"}\n},\n{\"id\": \"TIMER\", \"kind\":\"TIMER\", \"label\": \"Start Timer\"}\n],\n\"screens\":",
+      "generatedTokens": 219,
+      "promptTokens": 723
+    }
+  ]
+}

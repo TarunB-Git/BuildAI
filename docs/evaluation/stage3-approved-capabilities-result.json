@@ -1,0 +1,37 @@
+{
+  "scenario": "rectangle-approved-capabilities",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 900,
+  "apkSha256": "c1124a28e7aa4cde45127c4226f09d3c51e23c714a3a16d550054816c979870b",
+  "elapsedMsIncludingUiChecks": 139800,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "selectionGrammarEnabled": true,
+  "approvedCapabilities": {
+    "components": [
+      "INPUT",
+      "SUMMARY"
+    ],
+    "expressions": [
+      "MULTIPLY"
+    ],
+    "actions": [],
+    "records": false,
+    "screens": false
+  },
+  "error": "Calculate area failed after 2 repairs: Configure an observable calculation, record, timer, quiz or navigation before generating checks. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    76,
+    72,
+    72
+  ],
+  "promptTokensByCall": [
+    466,
+    530,
+    530
+  ],
+  "physicalPhone": false
+}

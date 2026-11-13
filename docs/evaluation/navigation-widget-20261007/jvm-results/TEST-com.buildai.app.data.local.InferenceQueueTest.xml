@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.data.local.InferenceQueueTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:11" hostname="Tar-IdeaPad-3-15ITL6" time="0.001">
+  <properties/>
+  <testcase name="cancelledWaiterDoesNotBlockTheQueueOrCancelActiveWork" classname="com.buildai.app.data.local.InferenceQueueTest" time="0.0"/>
+  <testcase name="chatsHavePriorityBetweenStepsButBuildsDoNotStarve" classname="com.buildai.app.data.local.InferenceQueueTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

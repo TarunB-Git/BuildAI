@@ -1,0 +1,16 @@
+{
+  "app/src/androidTest/java/com/buildai/app/NavigationWidgetRegressionTest.kt": "b4d1694affa91d832c675051c6aca5e835f20560a2c1d6a11e4675cead215466",
+  "app/src/main/java/com/buildai/app/data/model/DesignSpec.kt": "8a613f9a7b8592d21592814591a1c7e8b115dbd729cd59b07e8973aaa3e2791f",
+  "app/src/main/java/com/buildai/app/data/storage/ConversationRepository.kt": "bf559801a6e643dd482e86f793f3cb87bb569345694ebfd3209a72b37d4cac90",
+  "app/src/main/java/com/buildai/app/navigation/AppNavigation.kt": "7445c658da55ea06bbe77146dd0cb292a47ab4f64a3c7b17d8daf1ab1be4a14c",
+  "app/src/main/java/com/buildai/app/runtime/NativeAppRepository.kt": "80cc9c3916f6c1fc6b19319041564157957cc5e5f99f1c0712347f0bb2c8cbd5",
+  "app/src/main/java/com/buildai/app/runtime/NativeNavigation.kt": "27889f01a826573b68e516f7ba2e62ea5288fb2051dd6ee6a4d90d513562ab6f",
+  "app/src/main/java/com/buildai/app/runtime/NativeRunnerActivity.kt": "4e8229ddd2671bfcf027b98cb3246e828ba127147127303fba31c8966eb5a839",
+  "app/src/main/java/com/buildai/app/ui/screens/AppsScreen.kt": "a70f60c27d411e84414d08ed058170c482cea714466fb31de6e0b3248cc2de05",
+  "app/src/main/java/com/buildai/app/ui/screens/DesignScreen.kt": "c24db8f7d51814b881445a70e7b9c359b6b41eb352c52c83b5faddce163e9628",
+  "app/src/main/java/com/buildai/app/ui/screens/ProjectWorkspaceScreen.kt": "db79a9e39f27e219a15e7811e3cf1a08992a5cb1313e397425195b57d7f0a72f",
+  "app/src/main/java/com/buildai/app/viewmodel/DesignViewModel.kt": "50bdfa208091e62ede1c3456f4dc04c5516837ec6ed9973347353510f06a3726",
+  "app/src/main/java/com/buildai/app/widgets/ProjectHomeActions.kt": "c45d629295d7a9d8cc4df4ec334381cefc22425ff1a4b0b8fc151a5858f8f300",
+  "app/src/main/java/com/buildai/app/widgets/ProjectWidgetProvider.kt": "f2201d0e0b2272b091c25a7c597500aaea5b689611087a15319e304d88f91fbb",
+  "app/src/test/java/com/buildai/app/runtime/NativeNavigationTest.kt": "a4713c6c2b7c43e7103ede761d4e3e77bd5577e3894e05ca740cbc0054918922"
+}

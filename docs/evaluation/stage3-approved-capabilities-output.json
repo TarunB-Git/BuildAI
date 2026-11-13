@@ -1,0 +1,32 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\": \"Width\",\n\"fieldKind\": \"TEXT\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\": \"Height\",\n\"fieldKind\": \"TEXT\"\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": []\n}",
+      "generatedTokens": 76,
+      "promptTokens": 466
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "Configure an observable calculation, record, timer, quiz or navigation before generating checks",
+      "receivedFailedFeature": 206,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\":\"Width\",\n\"fieldKind\":\"TEXT\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\":\"Height\",\n\"fieldKind\":\"TEXT\"\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": []\n}",
+      "generatedTokens": 72,
+      "promptTokens": 530
+    },
+    {
+      "tool": "configureFeature",
+      "failureToRepair": "Configure an observable calculation, record, timer, quiz or navigation before generating checks",
+      "receivedFailedFeature": 206,
+      "grammarEnabled": true,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n{\n\"id\": \"width\",\n\"kind\":\"INPUT\",\n\"label\":\"Width\",\n\"fieldKind\":\"TEXT\"\n},\n{\n\"id\": \"height\",\n\"kind\":\"INPUT\",\n\"label\":\"Height\",\n\"fieldKind\":\"TEXT\"\n}\n],\n\"screens\": [],\n\"entities\": [],\n\"actions\": []\n}",
+      "generatedTokens": 72,
+      "promptTokens": 530
+    }
+  ]
+}

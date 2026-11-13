@@ -1,0 +1,282 @@
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeRelationshipTest:
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=deletingAReferencedParentIsBlockedUntilItsChildIsArchived
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeRelationshipTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativeBuilderTest:
+INSTRUMENTATION_STATUS: test=failedCapabilitySelectionIsProvidedToTheRepairAndOnlyTheCheckedFeaturePublishes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedCapabilitySelectionIsProvidedToTheRepairAndOnlyTheCheckedFeaturePublishes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=changedRequirementsDuringBuildPreventPublicationAndRetainCheckpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=scopedProposalPreviewAndApplyKeepCurrentRecordsAndRejectStaleBase
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=interactionProbesObserveAssignedValuesAndRejectUnknownStepInputs
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interactionProbesObserveAssignedValuesAndRejectUnknownStepInputs
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativeBuilderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=repairedNativeBuildPublishesActualConverterAndChangedInputsWork
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.CreatePlanningTest:
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.CreatePlanningTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Metres to inches, messageId=b020dedf-b9f2-402b-be07-7405c61c9abf)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Metres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=false)> but was:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Centimetres to inches, messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Centimetres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=true)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:70)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+
+INSTRUMENTATION_STATUS: stream=
+Error in questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(com.buildai.app.CreatePlanningTest):
+java.lang.AssertionError: expected:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Metres to inches, messageId=b020dedf-b9f2-402b-be07-7405c61c9abf)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Metres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=false)> but was:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Centimetres to inches, messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Centimetres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=true)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:70)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+
+INSTRUMENTATION_STATUS: test=questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.NativePlanEditingTest:
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.NativePlanEditingTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.buildai.app.LocalNativeBuilderTest:
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.buildai.app.LocalNativeBuilderTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Timer actions need a timer control. Remove timer actions when no timer is requested.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:117)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest):
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Timer actions need a timer control. Remove timer actions when no timer is requested.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:117)
+
+INSTRUMENTATION_STATUS: test=actualModelBuildsRectangleCalculatorWithChangedInputBehavior
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 204.869
+There were 2 failures:
+1) questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(com.buildai.app.CreatePlanningTest)
+java.lang.AssertionError: expected:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Metres to inches, messageId=b020dedf-b9f2-402b-be07-7405c61c9abf)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Metres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=false)> but was:<ProjectBrief(version=3, goal=I want a length converter. Ask me questions., turns=[RequirementTurn(messageId=441b63ab-5fb7-48e8-8c20-aabad4d34ecb, text=I want a length converter. Ask me questions.), RequirementTurn(messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3, text=Centimetres to inches), RequirementTurn(messageId=b020dedf-b9f2-402b-be07-7405c61c9abf, text=Use metres to inches instead)], answers=[RememberedAnswer(questionId=units, question=Which units should it convert?, answer=Centimetres to inches, messageId=269f2334-5e6b-4a97-bc3c-d26a96ead7e3)], questions=[], assumptions=[], suggestions=[FeatureSuggestion(id=history, title=Save recent conversions, benefit=Reuse a result later, accepted=false)], plan=NativePlan(name=Length converter, features=[FeaturePlan(id=convert, title=Convert length, workflow=Enter Centimetres and read inches, checks=[Changed input changes the result], composition=null)], screens=[Convert], data=[]), unsupported=null, approvedVersion=null, planDraft=null, planningPending=true)>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.buildai.app.CreatePlanningTest$questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence$1.invokeSuspend(CreatePlanningTest.kt:70)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.CreatePlanningTest.questionsAreRememberedPlanAppearsWithoutPhraseAndQueuedCorrectionUsesSavedEvidence(CreatePlanningTest.kt:23)
+2) actualModelBuildsRectangleCalculatorWithChangedInputBehavior(com.buildai.app.LocalNativeBuilderTest)
+org.junit.ComparisonFailure: Calculate area failed after 2 repairs: Timer actions need a timer control. Remove timer actions when no timer is requested.. The previous app and completed checkpoint are preserved. expected:<[COMPLET]ED> but was:<[FAIL]ED>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.buildai.app.LocalNativeBuilderTest.build(LocalNativeBuilderTest.kt:84)
+	at com.buildai.app.LocalNativeBuilderTest.access$build(LocalNativeBuilderTest.kt:25)
+	at com.buildai.app.LocalNativeBuilderTest$build$1.invokeSuspend(Unknown Source:18)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.buildai.app.LocalNativeBuilderTest.actualModelBuildsRectangleCalculatorWithChangedInputBehavior(LocalNativeBuilderTest.kt:117)
+
+FAILURES!!!
+Tests run: 11,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

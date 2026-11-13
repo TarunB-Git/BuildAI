@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.builder.CloudModelAdapterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:07" hostname="Tar-IdeaPad-3-15ITL6" time="0.235">
+  <properties/>
+  <testcase name="disablingCloudOrClearingItsKeyBlocksSubsequentToolRequests" classname="com.buildai.app.builder.CloudModelAdapterTest" time="0.197"/>
+  <testcase name="queuedCloudRequestRechecksConsentAfterAcquiringItsSlot" classname="com.buildai.app.builder.CloudModelAdapterTest" time="0.035"/>
+  <testcase name="aReplyConstructedBeforeRevocationStillChecksConsentWhenCollected" classname="com.buildai.app.builder.CloudModelAdapterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 07, 2026 3:20:07 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[57991] connection from /127.0.0.1 didn't make a request
+Oct 07, 2026 3:20:07 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[57991] connection from /127.0.0.1 didn't make a request
+]]></system-err>
+</testsuite>

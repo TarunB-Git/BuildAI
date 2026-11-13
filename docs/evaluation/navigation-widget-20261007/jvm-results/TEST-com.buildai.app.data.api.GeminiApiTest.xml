@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.data.api.GeminiApiTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:07" hostname="Tar-IdeaPad-3-15ITL6" time="3.116">
+  <properties/>
+  <testcase name="excludesThoughtPartsAndReadsAllTextParts" classname="com.buildai.app.data.api.GeminiApiTest" time="0.005"/>
+  <testcase name="authFailureDoesNotTryEveryModel" classname="com.buildai.app.data.api.GeminiApiTest" time="0.003"/>
+  <testcase name="streamingReadsChunksExcludesThoughtsAndUsesHeader" classname="com.buildai.app.data.api.GeminiApiTest" time="0.004"/>
+  <testcase name="malformedPlanFallsBackInsteadOfDisplayingBrokenJson" classname="com.buildai.app.data.api.GeminiApiTest" time="0.056"/>
+  <testcase name="gemmaUsesThinkingLevelAndKeyHeader" classname="com.buildai.app.data.api.GeminiApiTest" time="0.006"/>
+  <testcase name="streamingCancellationClosesWaitingConnection" classname="com.buildai.app.data.api.GeminiApiTest" time="0.009"/>
+  <testcase name="firstStreamChunkArrivesBeforeTheResponseFinishes" classname="com.buildai.app.data.api.GeminiApiTest" time="3.009"/>
+  <testcase name="rejectsTokenLimitInsteadOfAcceptingPartialOutput" classname="com.buildai.app.data.api.GeminiApiTest" time="0.009"/>
+  <testcase name="cancellationStopsAnInFlightHttpRequest" classname="com.buildai.app.data.api.GeminiApiTest" time="0.008"/>
+  <testcase name="prematureStreamRetainsPartialAndDoesNotSpliceFallback" classname="com.buildai.app.data.api.GeminiApiTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 07, 2026 3:20:08 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[46941] connection from /127.0.0.1 didn't make a request
+Oct 07, 2026 3:20:11 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[38569] connection from /127.0.0.1 didn't make a request
+]]></system-err>
+</testsuite>

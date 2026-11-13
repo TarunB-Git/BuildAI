@@ -1,0 +1,152 @@
+[
+  {
+    "id": "01-apps-sea",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Use warm sand #F2E9D6 background and #F8EFD9 translucent surfaces with teal #096B87 and seafoam highlights. Show exactly THREE finished apps in ONE single-column list: Study notes, Trip budget, Daily routine. Only Study notes is pinned, with a small pin icon. Exactly ONE Apps heading with settings icon. One search field. Every row has one icon, name, concise purpose, overflow menu, Open and Edit actions. Delete extra apps, duplicate branding/headings, tags, decorative section labels, extra Create buttons. Bottom glass navigation EXACTLY Chat, Create, Apps selected, using Material chat-bubble, add-circle, apps-grid icons.",
+    "path": "images/01-apps-sea.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/01-apps-sea-v1.png"
+  },
+  {
+    "id": "02-apps-forest",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Use deep green #155E3C and light green #DFEBD8, pale green #EEF6E7 surfaces. Show exactly THREE finished apps in ONE single-column list: Study notes, Trip budget, Daily routine. Only Study notes is pinned, small pin icon. ONE Apps heading and settings icon, one search field. Each compact row has icon/name/purpose/overflow and Open, Edit actions. Remove extra apps, tags, duplicate headings, grid layout and extra Create buttons. Bottom navigation exactly Chat, Create, Apps selected with Material chat-bubble/add-circle/apps-grid icons.",
+    "path": "images/02-apps-forest.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/02-apps-forest-v1.png"
+  },
+  {
+    "id": "03-apps-night",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Charcoal night-gray theme. Exactly THREE finished apps in one single-column compact list: Study notes, Trip budget, Daily routine. Only Study notes is pinned. One Apps heading with settings, one search field, each row icon/name/purpose/overflow and Open, Edit. Delete tags, redundant brand headings and New app button. Bottom navigation exactly Chat, Create, Apps selected with Material chat-bubble/add-circle/apps-grid icons.",
+    "path": "images/03-apps-night.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/03-apps-night-v1.png"
+  },
+  {
+    "id": "05-chat-list",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Remove the redundant BuildAI branding heading and decorative history icon. Keep one Chat heading and settings icon, New chat button, one search field, and the same three compact chat rows. All light panels warm SAND #F8EFD9, never white. Teal #096B87 highlights, subtle seafoam glass reflections. Bottom navigation exactly Chat selected, Create, Apps, Material chat-bubble/add-circle/apps-grid icons. Efficient vertical spacing.",
+    "path": "images/05-chat-list.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/05-chat-list-v1.png"
+  },
+  {
+    "id": "06-create",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Remove redundant BuildAI heading and See all link. One Create heading and Settings. Warm SAND #F8EFD9 panels not white. Keep idea field, Start, two draft rows and three inspiration rows, modest seafoam glass backdrop. Bottom navigation exactly Chat, Create selected, Apps with Material chat-bubble/add-circle/apps-grid icons.",
+    "path": "images/06-create.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/06-create-v1.png"
+  },
+  {
+    "id": "07-requirements",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Replace all white/blue/purple coloring with warm sand #F2E9D6 background, sand #F8EFD9 cards, sea-blue teal #096B87 accents and seafoam user bubble. Header Trip budget, Back, overflow and small unobtrusive Local AI caption. Assistant text is plain formatted text WITHOUT bubble or repeated avatar, with comfortable line length. Retain compact requirements summary but change its CTA to Review requirements. No workspace tab strip. A small single-row composer at bottom with mic/input/send. No root bottom navigation on this nested screen.",
+    "path": "images/07-requirements.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/07-requirements-v1.png"
+  },
+  {
+    "id": "08-appearance",
+    "prompt": "Edit this generated BuildAI mobile UI concept to correct the exact UX inconsistencies below. Keep polished portrait edge-to-edge Android screenshot, crisp typography and generous but efficient spacing. Do not invent new content or actions. Preserve beautiful deep/light forest-green Appearance screen and readable preview. Remove x/delete buttons from Navigation labels; these labels rename actual app screens, do not invent/remove routes here. Show Notes and Search as simple editable names. Replace image/upload icon beside Change app icon with Material apps-grid. Maintain Save & build at bottom. Compact row spacing, no extra controls.",
+    "path": "images/08-appearance.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/08-appearance-v1.png"
+  },
+  {
+    "id": "09-cloud",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Use warm sand surfaces #F8EFD9 and sea-blue teal #096B87; remove unsupported marketing claims/free-tier/multimodal checklists entirely. Gemini expanded, OpenRouter/OpenAI/Claude collapsed. Gemini API key field, editable Model ID gemini-2.5-flash, ONE optional fallback-model-ID text field gemini-2.5-flash-lite. Save key & model, Use Gemini. No invented dropdown selectors for IDs, no Add fallback model button. All four provider accordions and global Generation fallback toggle On should be visible with compact spacing. One Cloud AI header with Back, no bottom navigation.",
+    "path": "images/09-cloud.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/09-cloud-v1.png"
+  },
+  {
+    "id": "10-local",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Use pale green #DFEBD8 background and #EEF6E7 panels with deep green #155E3C. Remove generic speed/always-running claim and giant Ready block. Selected model Qwen3 0.6B says Installed. Preserve opened small dropdown with Installed and Not installed groups and info icons. Imported my-model.gguf Source: User. Qwen downloaded says Source: Downloaded and linked Publisher. Noninstalled curated entries say Publisher: Qwen or Google, never Source: Not installed. Import model file and Find models in a folder below. One Local AI heading with Back, no bottom navigation.",
+    "path": "images/10-local.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/10-local-v1.png"
+  },
+  {
+    "id": "11-queue",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. This is a NESTED chat screen with Back, HTML basics title, tiny Local AI caption, overflow. Remove root bottom navigation, brand/search/bell/profile bar, repeated assistant avatar, rendered HTML preview, thumbs up/down actions and code fullscreen button; only code source with Copy code. Keep Night-gray palette, compact composer, and queued requests sheet with editable Request 1 and Request 2 and Save, Send now & steer, Remove per request. Remove draggable grips since reorder isn't supported. Caption Send now interrupts the current reply. Focus all readable controls on queue.",
+    "path": "images/11-queue.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/11-queue-v1.png"
+  },
+  {
+    "id": "12-history",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Keep all timeline content and Inspect/Restore actions; change the Version history sheet from white to PALE GREEN #EEF6E7, with deep-green accents and #DFEBD8 backdrop. A calm forest theme with no pure-white panels. Compact current item and records-retained information row. Do not add controls.",
+    "path": "images/12-history.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/12-history-v1.png"
+  },
+  {
+    "id": "15-model-info",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Keep the Gemma 4 E2B information dialog with Text & code, 3.35 GB, 8 GB phone memory, publisher link and honest Image and audio input are not supported in BuildAI yet. Remove root bottom navigation, BuildAI branding, category filters, other made-up models and marketing slogans behind dialog. Background is nested Local AI settings with Back, pale/light forest green. Download and Close only.",
+    "path": "images/15-model-info.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/15-model-info-v1.png"
+  },
+  {
+    "id": "16-themes",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Preserve the three theme choices but remove Generate images and profile icon everywhere: these aren't app features. Each miniature preview shows ONLY an Apps heading and Study notes, Trip budget, Daily routine rows. Three previews use warm sand and teal sea glass, pale/deep forest greens, charcoal Night gray. Compact Theme header with Back, no redundant subtitle and no bottom navigation.",
+    "path": "images/16-themes.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/16-themes-v1.png"
+  },
+  {
+    "id": "17-native-plan",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Remove the root bottom navigation since this is nested requirements review. Remove invented photo input claims: Record expenses is amount, category and note only. Use consistent light-green background and deep-green controls. Retain editable app name, three feature cards, optional assumptions and Choose appearance bottom button. No redundant example boxes.",
+    "path": "images/17-native-plan.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/17-native-plan-v1.png"
+  },
+  {
+    "id": "18-web-plan",
+    "prompt": "Edit this generated BuildAI Android UI concept. Correct these discrepancies exactly; retain crisp mobile typography, polished restrained design, portrait edge-to-edge screenshot. Do not add controls. Remove root bottom navigation. Header App requirements with Back, remove redundant BuildAI branding and subtitle. Keep editable fields in warm SAND #F8EFD9 on #F2E9D6. Use realistic offline-capable Study notes description Save, edit and find study notes; features Add/edit notes, Organize by subject, Search notes; screens Notes, Edit note, Search. No AI summaries, flashcards, practice questions or made-up capabilities. Keep Continue to appearance primary button.",
+    "path": "images/18-web-plan.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/18-web-plan-v1.png"
+  },
+  {
+    "id": "19-native-preview",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Use PALE GREEN #EEF6E7 panels and light green #DFEBD8 backdrop with deep green accents, no white. Current app is named Study notes consistently, not Study Buddy. In the note form change Keep note to Save note because this is current app; candidate changes belong in test preview. Retain note/text/tag entry, saved records with Edit/Delete and Open app. No root navigation on this nested screen. Remove redundant large app name where possible.",
+    "path": "images/19-native-preview.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/19-native-preview-v1.png"
+  },
+  {
+    "id": "20-runner",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Use pale green #EEF6E7 surfaces and light green #DFEBD8 background, deep green #155E3C. This is the standalone native Study notes app. Change Keep note to Save note. Remove invented 0/500 counter and extra + tag editing pills. Retain Note, Tags, Save note, search, saved rows with Edit/Delete, History. No root bottom navigation.",
+    "path": "images/20-runner.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/20-runner-v1.png"
+  },
+  {
+    "id": "21-web-preview",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Replace pure-white and bright-blue coloring with warm sand #F2E9D6 background, sand #F8EFD9 surfaces and sea-blue teal #096B87. Remove root bottom navigation completely: this is nested Task list preview. Keep Back, Task list, overflow, Current web app, Open app and contained task UI. Compact consistent heading, no invented controls.",
+    "path": "images/21-web-preview.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/21-web-preview-v1.png"
+  },
+  {
+    "id": "22-edit",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove root bottom navigation and repeated assistant avatars/bubbles. This is nested Trip budget editing with Back, small Local AI status and overflow. Present What would you like to change? as a plain heading, three compact suggestion chips only, Apply to Whole app selector, typed request field Add a transport category and one Prepare change action. Remove redundant fake assistant confirmation dialogue and duplicate second composer. Use warm SAND surfaces, teal sea accents.",
+    "path": "images/22-edit.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/22-edit-v1.png"
+  },
+  {
+    "id": "24-build-error",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove root bottom navigation; this is a nested Trip budget recovery screen. Reduce enormous robot illustration to a small Material error icon. Keep Build needs attention, The model stopped replying, last completed checkpoint, Retry saved checkpoint, Review requirements, Adjust AI setup and Open current app. Compact night-gray spacing.",
+    "path": "images/24-build-error.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/24-build-error-v1.png"
+  },
+  {
+    "id": "26-model-catalogue",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove root bottom navigation, unsupported downloaded Qwen3 14B entry and count labels. This nested Models screen represents a large installed inventory (>10 total); show search field, Installed and Not installed groups, with a scroll continuation cue. Installed examples: Qwen3 0.6B Source Downloaded with publisher link, my-model.gguf Source User, notes-model.gguf Source User. Not installed: Qwen3 4B and Gemma 4 E2B publisher links and info actions. No fake radio selection for models that aren't installed. Pale/light green with deep-green accents.",
+    "path": "images/26-model-catalogue.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/26-model-catalogue-v1.png"
+  },
+  {
+    "id": "28-about",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove all invented What is BuildAI / Privacy / Help / Release notes navigation rows. About BuildAI nested screen shows Back, BuildAI, Version 0.3.0 and short explanatory text Make and use personal tools. Native apps keep records on this device. AI availability and quality depend on your selected model. Keep tasteful sand and sea glass backdrop, no extra controls.",
+    "path": "images/28-about.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/28-about-v1.png"
+  },
+  {
+    "id": "29-manual",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove root bottom navigation completely. This is nested Configure offline tool, available only when Advanced Show offline tools is enabled. Keep existing form and supported capability switches. Change bottom button icon from AI sparkles to Material build/wrench because this is an offline tool. Light green panels and deep-green accents.",
+    "path": "images/29-manual.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/29-manual-v1.png"
+  },
+  {
+    "id": "30-starters",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove Start from files (unsupported), giant marketing heading and redundant input controls behind the sheet. Root Create backdrop has single Create heading, idea field, small Show offline tools enabled notice, drafts. Sheet Offline starters contains exactly six listed starters: Notes/journal, Task checklist, Habit tracker, Expense tracker, Calculator, Focus timer. Warm sand surfaces rather than white. Sheet open, no visible bottom navigation behind sheet, Close action.",
+    "path": "images/30-starters.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/30-starters-v1.png"
+  },
+  {
+    "id": "31-proposed-preview",
+    "prompt": "Edit this generated BuildAI mobile UI concept to fix specified UX mismatches, keeping polished portrait Android screenshot and clear readable layout. Do not add new features or controls. Remove root bottom navigation. Pale-green #EEF6E7 surfaces instead of white; deep/light green. Keep Current/Proposed segmented comparison because this is a test preview (not workspace phases). Header Test proposed change, text Test data · changes here are discarded. Retain budget form and isolated sample rows, Save expense, Back to review. No invented global tabs.",
+    "path": "images/31-proposed-preview.png",
+    "reference": "/home/tar_guest/Documents/BuildAI/docs/design/revision-20261005/images/31-proposed-preview-v1.png"
+  }
+]

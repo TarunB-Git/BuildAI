@@ -1,0 +1,19 @@
+{
+  "scenario": "rectangle-diagnostic",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 0.6B Q4_0",
+  "modelSha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4",
+  "apkSha256": "f263239ae33cc48c9f0a5351e147632027368ff23a6ff79fc926f3c82eb596c5",
+  "elapsedMsIncludingUiChecks": 159608,
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 0,
+  "error": "Calculate area failed after 0 repairs: Failed requirement.. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByAttempt": [
+    445
+  ],
+  "promptTokensByAttempt": [
+    900
+  ],
+  "physicalPhone": false
+}

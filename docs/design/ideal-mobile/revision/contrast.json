@@ -1,0 +1,17 @@
+{
+  "SEA_BLUE": {
+    "body_on_background": 9.84,
+    "secondary_on_surface": 5.37,
+    "button_label": 5.55
+  },
+  "FOREST_GREEN": {
+    "body_on_background": 11.8,
+    "secondary_on_surface": 6.06,
+    "button_label": 6.94
+  },
+  "NIGHT_GRAY": {
+    "body_on_background": 16.03,
+    "secondary_on_surface": 8.91,
+    "button_label": 10.54
+  }
+}

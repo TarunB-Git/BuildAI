@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.runtime.NativeNavigationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:13" hostname="Tar-IdeaPad-3-15ITL6" time="0.015">
+  <properties/>
+  <testcase name="oldAndRevisedRuntimesHaveASafeRouteHome" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.0"/>
+  <testcase name="historyIsBoundedWithoutDiscardingCurrentInputs" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.012"/>
+  <testcase name="backRestoresEachScreensInputsAndSelectedRecordAfterSerialization" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.001"/>
+  <testcase name="boundTabNamesFollowScreenIdsAcrossReorderingAndJsonRoundTrip" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.0"/>
+  <testcase name="rowNavigationIsProtectedEvenWhenItHasNoBindings" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.0"/>
+  <testcase name="newNativeTabsUseActualScreenNamesAndRetainMoreThanFiveStableBindings" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.001"/>
+  <testcase name="globalNavigationExcludesContextualConditionalAndChainedScreens" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.0"/>
+  <testcase name="legacyTabMigrationUsesOriginalScreenPositionsBeforeHidingDetails" classname="com.buildai.app.runtime.NativeNavigationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

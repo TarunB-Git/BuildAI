@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-04",
+  "scope": "Browser design prototype only",
+  "checks": [
+    {
+      "name": "Initial library has two ready apps and one draft",
+      "passed": true
+    },
+    {
+      "name": "Search filters app list",
+      "passed": true
+    },
+    {
+      "name": "Clear search restores apps",
+      "passed": true
+    },
+    {
+      "name": "Project draft survives view changes",
+      "passed": true
+    },
+    {
+      "name": "Change preparation starts without applying",
+      "passed": true
+    },
+    {
+      "name": "Requests never queue into another project context",
+      "passed": true
+    },
+    {
+      "name": "Follow-up can queue while preparing",
+      "passed": true
+    },
+    {
+      "name": "Edit finishes in review state",
+      "passed": true
+    },
+    {
+      "name": "Preview writes stay isolated",
+      "passed": true
+    },
+    {
+      "name": "Apply keeps original app records",
+      "passed": true
+    },
+    {
+      "name": "Standalone sample form saves an expense",
+      "passed": true
+    },
+    {
+      "name": "Explicit history restore keeps present records",
+      "passed": true
+    },
+    {
+      "name": "Removing local model never selects cloud",
+      "passed": true
+    },
+    {
+      "name": "Demo key state saved and actual key text discarded",
+      "passed": true
+    },
+    {
+      "name": "Cloud switch requires explicit action",
+      "passed": true
+    },
+    {
+      "name": "Catalogue retains all five model choices",
+      "passed": true
+    },
+    {
+      "name": "Installing a model keeps selected cloud connection",
+      "passed": true
+    },
+    {
+      "name": "Settings returns to its original workspace",
+      "passed": true
+    },
+    {
+      "name": "Example prefills without submitting",
+      "passed": true
+    },
+    {
+      "name": "Create opens a stable project workspace",
+      "passed": true
+    },
+    {
+      "name": "Invalid draft is preserved while build blocked",
+      "passed": true
+    },
+    {
+      "name": "Cancelling appearance preserves saved style",
+      "passed": true
+    },
+    {
+      "name": "Appearance has explicit apply boundary",
+      "passed": true
+    },
+    {
+      "name": "All four existing HTML output actions available",
+      "passed": true
+    },
+    {
+      "name": "Manual draft survives adding a field",
+      "passed": true
+    },
+    {
+      "name": "Manual route opens a clear simulated draft review",
+      "passed": true
+    },
+    {
+      "name": "General chat has its own context",
+      "passed": true
+    },
+    {
+      "name": "Failed build offers retained-work retry",
+      "passed": true
+    },
+    {
+      "name": "Successful retry retains and publishes same project ID",
+      "passed": true
+    },
+    {
+      "name": "apps fits 320px",
+      "passed": true
+    },
+    {
+      "name": "chats fits 320px",
+      "passed": true
+    },
+    {
+      "name": "create fits 320px",
+      "passed": true
+    },
+    {
+      "name": "chat fits 320px",
+      "passed": true
+    },
+    {
+      "name": "plan fits 320px",
+      "passed": true
+    },
+    {
+      "name": "preview fits 320px",
+      "passed": true
+    },
+    {
+      "name": "guided fits 320px",
+      "passed": true
+    },
+    {
+      "name": "settings fits 320px",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 320px",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 320px",
+      "passed": true
+    },
+    {
+      "name": "activity fits 320px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 320px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 320px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 320px",
+      "passed": true
+    },
+    {
+      "name": "apps fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chats fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "create fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chat fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "plan fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "preview fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "guided fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "settings fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "activity fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 320px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 320px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 320px",
+      "passed": true
+    },
+    {
+      "name": "apps fits 390px",
+      "passed": true
+    },
+    {
+      "name": "chats fits 390px",
+      "passed": true
+    },
+    {
+      "name": "create fits 390px",
+      "passed": true
+    },
+    {
+      "name": "chat fits 390px",
+      "passed": true
+    },
+    {
+      "name": "plan fits 390px",
+      "passed": true
+    },
+    {
+      "name": "preview fits 390px",
+      "passed": true
+    },
+    {
+      "name": "guided fits 390px",
+      "passed": true
+    },
+    {
+      "name": "settings fits 390px",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 390px",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 390px",
+      "passed": true
+    },
+    {
+      "name": "activity fits 390px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 390px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 390px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 390px",
+      "passed": true
+    },
+    {
+      "name": "apps fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chats fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "create fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chat fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "plan fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "preview fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "guided fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "settings fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "activity fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 390px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 390px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 390px",
+      "passed": true
+    },
+    {
+      "name": "apps fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "chats fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "create fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "chat fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "plan fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "preview fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "guided fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "settings fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "activity fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 1440px",
+      "passed": true
+    },
+    {
+      "name": "apps fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chats fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "create fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "chat fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "plan fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "preview fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "guided fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "settings fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "local-ai fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "cloud-ai fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "activity fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet fits 1440px at 150% text",
+      "passed": true
+    },
+    {
+      "name": "Review sheet traps keyboard focus at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Escape closes sheet at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No browser JavaScript errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 114
+}

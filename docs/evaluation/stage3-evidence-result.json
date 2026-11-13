@@ -1,0 +1,27 @@
+{
+  "scenario": "rectangle",
+  "fixtureType": "Development; not held-out evaluation",
+  "model": "Qwen3 1.7B · Q8_0",
+  "modelSha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+  "testWindowSeconds": 600,
+  "apkSha256": "885ae0148fcdf9091d368175195ae511e7587478f6825829608b096dae142e5e",
+  "elapsedMsIncludingUiChecks": 68609,
+  "testApkSha256": "f9f254bb366667e4f48e7b7426904d0c900914037fb7ef109e78a15d8d6571cb",
+  "successfulOutcome": false,
+  "jobStatus": "FAILED",
+  "repairLimit": 2,
+  "selectionGrammarEnabled": true,
+  "approvedCapabilities": null,
+  "error": "Calculate area failed after 2 repairs: Record actions need a saved collection; select records or remove unneeded record actions.. The previous app and completed checkpoint are preserved.",
+  "generatedTokensByCall": [
+    15,
+    15,
+    15
+  ],
+  "promptTokensByCall": [
+    383,
+    413,
+    413
+  ],
+  "physicalPhone": false
+}

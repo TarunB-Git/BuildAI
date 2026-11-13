@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-04",
+  "scope": "Implemented Android app; emulator and host validation, no physical phone or live production model acceptance.",
+  "apk": {
+    "path": "app/build/outputs/apk/debug/app-debug.apk",
+    "bytes": 95455403,
+    "sha256": "37fefb57b9cdfd9b8de0d040a0ee036c45424edd940dce4f53c4aeb57a71fe64",
+    "variant": "debug",
+    "package": "com.buildai.app.debug"
+  },
+  "unit_tests": {
+    "tests": 77,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 56
+  },
+  "device": {
+    "api": 35,
+    "width_px": 540,
+    "height_px": 1200,
+    "density_dpi": 210,
+    "distinct_cases_passed": 32,
+    "unresolved_failures": 0,
+    "runs": [
+      {
+        "log": "android-validation/device-broad-run.log",
+        "tests": 32,
+        "passed": 28,
+        "failed": 4,
+        "note": "Four UI test selector/window-focus failures; app APK unchanged for corrected test-only rerun."
+      },
+      {
+        "log": "android-validation/device-corrected-ui-run.log",
+        "tests": 9,
+        "passed": 9,
+        "failed": 0,
+        "note": "Includes all four corrected cases plus five other UI journeys."
+      }
+    ],
+    "cases": [
+      {
+        "name": "com.buildai.app.AppEditingTest#builtAppCanEditRequirementsReturnToChatAndKeepPreviousOutput",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.GuidedRuntimeTest#composedPrivateToolSavesUncheckedBooleanAndCommaDecimalsWithLiveCalculation",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#appearanceDraftIsExplicitAndResetDoesNotApplyItself",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#deletingRuntimeItemRequiresConfirmationAndCancelRetainsIt",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#everyThemePersistsAndCoversLibraryWorkspaceAndNativeRunner",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#incompleteLegacyPlanAndSelectedTabSurviveRecreation",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#manualAndOfflineStarterHaveDirectWorkingEntryPoints",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#proposedPreviewUsesTestStorageAndDiscardKeepsCurrentRevision",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#settingsProviderChoiceIsExplicitAndUnsavedKeyCanBeDiscarded",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.MobileRedesignTest#workspaceAndSettingsRemainReachableAtDoubleFontScale",
+        "result": "passed",
+        "latest_log": "android-validation/device-corrected-ui-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativePlanEditingTest#completePlanDraftSurvivesReopeningAndOneApprovalUsesTheEditedFields",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRelationshipTest#deletingAReferencedParentIsBlockedUntilItsChildIsArchived",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRelationshipTest#foreignReferencesInvalidDatesAndFailedConditionsCannotPartiallyWriteRecords",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRelationshipTest#pickerDateCalculationAndConditionalSavePersistTypedLinkedRecords",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRuntimeTest#budgetInputsChangeStoredTotalsAndAppReopensWithoutAi",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRuntimeTest#notesSearchTagsQuizAndColdReopenUseTheSameRuntime",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRuntimeTest#routineCompletionAndTimerDeadlineSurviveClosingTheRunner",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.NativeRuntimeTest#scopedEditsRejectStalePatchesAndUndoKeepsTodaysRecords",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#failedRequestAndProjectIdRecoverFromSavedState",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#persistsDesignAndDoesNotLoseItWhenChatUpdates",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#projectStorageIsIsolatedEvenWhenGeneratedAppsUseTheSameKey",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#readsLegacyProjectWithoutNewFields",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#runtimeCheckAcceptsWorkingAppAndRejectsJavaScriptSyntaxError",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.ProjectRecoveryTest#sameNameProjectsDoNotOverwriteEachOtherAndDeleteRemovesOnlyOwnOutput",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#buildContinuesAfterReturningHome",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#cancelledGenerationCanRetryWithoutSavingIncompleteOutput",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#draftRemainsEditableWhileReplyRuns",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#failedPlanningRequestSurvivesRestartAndRetries",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#requirementsAppearanceGenerationInteractionsExportAndColdReopen",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkflowTest#separateProjectsCanRunAtTheSameTime",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkspaceUiTest#librarySearchDraftNavigationAndComposerPreserveWork",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      },
+      {
+        "name": "com.buildai.app.WorkspaceUiTest#readablePlanEditorsAndBuildRemainReachableWithLargeText",
+        "result": "passed",
+        "latest_log": "android-validation/device-broad-run.log"
+      }
+    ]
+  },
+  "captures": [
+    "captures/forest-green-apps.png",
+    "captures/forest-green-chat.png",
+    "captures/forest-green-plan.png",
+    "captures/forest-green-preview.png",
+    "captures/forest-green-runner.png",
+    "captures/forest-green-themes.png",
+    "captures/night-gray-apps.png",
+    "captures/night-gray-chat.png",
+    "captures/night-gray-double-text.png",
+    "captures/night-gray-plan.png",
+    "captures/night-gray-preview.png",
+    "captures/night-gray-runner.png",
+    "captures/night-gray-themes.png",
+    "captures/proposed-change.png",
+    "captures/sea-blue-apps.png",
+    "captures/sea-blue-chat.png",
+    "captures/sea-blue-plan.png",
+    "captures/sea-blue-preview.png",
+    "captures/sea-blue-runner.png",
+    "captures/sea-blue-themes.png"
+  ],
+  "resource_limits": {
+    "build_host_cores": 2,
+    "gradle_workers": 1,
+    "native_build_jobs": 1,
+    "emulator_cores": 2,
+    "emulator_ram_mb": 2048,
+    "sequential_build_and_emulator": true,
+    "model_downloads": false,
+    "avd_wipe": false
+  }
+}

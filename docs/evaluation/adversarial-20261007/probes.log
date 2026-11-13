@@ -1,0 +1,9 @@
+REPRODUCED A01 shared action changes unselected screen behavior
+REPRODUCED A02 empty scoped edit is accepted
+REPRODUCED A03 field-only change has an empty review change list
+REPRODUCED A04 live calculator contract accepts constant-only output
+REPRODUCED A05 nested division fails supported-number precision
+REPRODUCED A06 equivalent valid decimal values compare unequal
+REPRODUCED A07 malformed action collection is silently dropped
+REPRODUCED A08 project title with slash makes export filename unwritable
+TOTAL: 8 defects reproduced; production source unchanged.

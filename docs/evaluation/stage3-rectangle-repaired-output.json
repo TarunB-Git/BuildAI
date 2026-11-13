@@ -1,0 +1,26 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n ],\n\"screens\": [\n ],\n\"entities\": [\n ],\n\"actions\": [\n ],\n\"checks\": [\n{\"name\": \"Width 2.5 and height 4 shows Area 10\", \"inputs\": {\"actual_input_id\": \"width\", \"kind\": \"NUMBER\", \"value\": \"2.5\"}, \"steps\": [{\"action\": \"actual_action_id\", \"inputs\": {\"actual_input_id\": \"height\", \"kind\": \"NUMBER\", \"value\": \"4\"}}],\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"10\"},\n{\"component\": \"actual_list_id\", \"count\": 1}\n]},\n{\n\"name\": \"Width 7 and height 3 shows Area 21\", \"inputs\": {\"actual_input_id\": \"width\", \"kind\": \"NUMBER\", \"value\": \"7\"}, \"steps\": [{\"action\": \"actual_action_id\", \"inputs\": {\"actual_input_id\": \"height\", \"kind\": \"NUMBER\", \"value\": \"3\"}}]\n,\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"21\"}\n]\n}\n]\n}",
+      "generatedTokens": 252,
+      "promptTokens": 925
+    },
+    {
+      "failureToRepair": "The app changed. Open its latest screen and try again.",
+      "receivedFailedFeature": 772,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n ],\n\"screens\": [\n ],\n\"entities\": [\n],\n\"actions\": [\n ],\n\"checks\": [\n{\n\"name\": \"Width 2.5 and height 4 shows Area 10\",\n\"inputs\": {\n\"actual_input_id\": \"width\",\n\"kind\": \"NUMBER\",\n\"value\": \"2.5\"\n},\n\"steps\": [\n{\n\"action\": \"actual_action_id\",\n\"inputs\": {\n\"actual_input_id\": \"height\",\n\"kind\": \"NUMBER\",\n\"value\": \"4\"\n}\n}\n]\n,\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"10\"}\n]\n},\n{\n\"name\": \"Width 7 and height 3 shows Area 21\",\n\"inputs\": {\n\"actual_input_id\": \"width\",\n\"kind\": \"NUMBER\",\n\"value\": \"7\"\n},\n\"steps\": [\n{\n\"action\": \"actual_action_id\",\n\"inputs\": {\n\"actual_input_id\": \"height\",\n\"kind\": \"NUMBER\",\n\"value\": \"3\"\n}\n}\n]\n,\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"21\"}\n]\n}\n]\n}",
+      "generatedTokens": 248,
+      "promptTokens": 1224
+    },
+    {
+      "failureToRepair": "The app changed. Open its latest screen and try again.",
+      "receivedFailedFeature": 745,
+      "output": "{\n\"screenId\": \"home\",\n\"components\": [\n ],\n\"screens\": [\n ],\n\"entities\": [\n],\n\"actions\": [\n],\n\"checks\": [\n{\n\"name\": \"Width 2.5 and height 4 shows Area 10\",\n\"inputs\": {\n\"actual_input_id\": \"width\",\n\"kind\": \"NUMBER\",\n\"value\": \"2.5\"\n},\n\"steps\": [\n{\n\"action\": \"actual_action_id\",\n\"inputs\": {\n\"actual_input_id\": \"height\",\n\"kind\": \"NUMBER\",\n\"value\": \"4\"\n}\n}\n],\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"10\"}\n]\n},\n{\n\"name\": \"Width 7 and height 3 shows Area 21\",\n\"inputs\": {\n\"actual_input_id\": \"width\",\n\"kind\": \"NUMBER\",\n\"value\": \"7\"\n},\n\"steps\": [\n{\n\"action\": \"actual_action_id\",\n\"inputs\": {\n\"actual_input_id\": \"height\",\n\"kind\": \"NUMBER\",\n\"value\": \"3\"\n}\n}\n],\n\"assertions\": [\n{\"component\": \"actual_summary_id\", \"equals\": \"21\"}\n]\n}\n]\n}",
+      "generatedTokens": 245,
+      "promptTokens": 1249
+    }
+  ]
+}

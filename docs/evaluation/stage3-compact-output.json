@@ -1,0 +1,32 @@
+{
+  "fixtureType": "Controlled development prompt; real model output",
+  "attempts": [
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "null",
+      "receivedFailedFeature": 0,
+      "grammarEnabled": true,
+      "output": "{\"use\":[\"CONCAT\",\"EQ\",\"GT\",\"CONTAINS\",\"AND\",\"IF\",\"TIMER\",\"SUM\",\"COUNT\",\"DATE_ADD\",\"DATE_DIFF\",\"BEFORE\",\"AFTER\",\"TODAY\",\"NOW\",\"DATE_ADD\",\"DATE_DIFF\",\"CONTAINS\",\"EQ\",\"GT\",\"AND\",\"IF\",\"CONCAT\",\"SUM\",\"COUNT\",\"TIMER\",\"DATE_ADD\",\"DATE_DIFF\",\"BEFORE\",\"AFTER\",\"TODAY\",\"NOW\"]}",
+      "generatedTokens": 85,
+      "promptTokens": 325
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Use each registered capability at most once",
+      "receivedFailedFeature": 266,
+      "grammarEnabled": true,
+      "output": "{\"use\":[\"CONCAT\",\"EQ\",\"GT\",\"CONTAINS\",\"AND\",\"IF\",\"TIMER\",\"SUM\",\"COUNT\",\"DATE_ADD\",\"DATE_DIFF\",\"BEFORE\",\"AFTER\",\"TODAY\",\"NOW\"]}",
+      "generatedTokens": 41,
+      "promptTokens": 418
+    },
+    {
+      "tool": "inspectCapabilities",
+      "failureToRepair": "Keep a feature's capabilities focused",
+      "receivedFailedFeature": 126,
+      "grammarEnabled": true,
+      "output": "{\"use\":[\"CONCAT\",\"EQ\",\"GT\",\"CONTAINS\",\"AND\",\"IF\",\"TIMER\",\"SUM\",\"COUNT\",\"DATE_ADD\",\"DATE_DIFF\",\"BEFORE\",\"AFTER\",\"TODAY\",\"NOW\"]}",
+      "generatedTokens": 41,
+      "promptTokens": 373
+    }
+  ]
+}

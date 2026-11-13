@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.buildai.app.data.api.CloudProviderApiTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-07T01:20:07" hostname="Tar-IdeaPad-3-15ITL6" time="0.027">
+  <properties/>
+  <testcase name="fallbackOffSendsOnlyTheChosenGeminiModel" classname="com.buildai.app.data.api.CloudProviderApiTest" time="0.005"/>
+  <testcase name="cancellationClosesAWaitingHttpCall" classname="com.buildai.app.data.api.CloudProviderApiTest" time="0.007"/>
+  <testcase name="disconnectedPartialReplyIsNotReportedAsComplete" classname="com.buildai.app.data.api.CloudProviderApiTest" time="0.006"/>
+  <testcase name="eachProviderUsesItsOwnAuthenticationBodyAndStreamProtocol" classname="com.buildai.app.data.api.CloudProviderApiTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 07, 2026 3:20:07 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[42803] connection from /127.0.0.1 didn't make a request
+]]></system-err>
+</testsuite>
